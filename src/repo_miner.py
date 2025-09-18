@@ -12,6 +12,7 @@ import os
 import argparse
 import pandas as pd
 from github import Github
+from github.Auth import Token
 
 def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     """
@@ -19,19 +20,43 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     Returns a DataFrame with columns: sha, author, email, date, message.
     """
     # 1) Read GitHub token from environment
-    # TODO
-
+    github_token = os.environ.get("GITHUB_TOKEN")
+    if not github_token:
+        print("GITHUB_TOKEN environment variable not set. Using unauthenticated requests. Rate limits may apply.")
+    
     # 2) Initialize GitHub client and get the repo
-    # TODO
+    g = Github(auth=Token(github_token)) if github_token else Github()
+    
+    repo = g.get_repo(repo_name)
+    if not repo:
+        raise ValueError(f"Repository `{repo_name}` not found or inaccessible.")
 
     # 3) Fetch commit objects (paginated by PyGitHub)
-    # TODO
+    print(f"Fetching commits from `{repo_name}`...")
+    commits = repo.get_commits()
+    if max_commits:
+        commits = commits[:max_commits]
 
     # 4) Normalize each commit into a record dict
-    # TODO
+    print("Normalizing commit data...")
+    normalized_commits = []
+    for commit in commits:
+        record = {
+            "sha": commit.sha,
+            "author": commit.commit.author.name,
+            "email": commit.commit.author.email,
+            "date": commit.commit.author.date, # ISO-8601
+            "message": commit.commit.message.split('\n', 1)[0] # first line only
+        }
+        normalized_commits.append(record)
 
     # 5) Build DataFrame from records
-    # TODO
+    commit_df: pd.DataFrame = pd.DataFrame(normalized_commits)
+    
+    # Close GitHub client (not strictly necessary)
+    g.close()
+    
+    return commit_df
     
 
 def main():
