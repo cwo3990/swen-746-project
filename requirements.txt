@@ -11,9 +11,13 @@ charset-normalizer==3.4.3
 cryptography==45.0.7
     # via pyjwt
 idna==3.10
-    # via requests
+    # via
+    #   requests
+    #   yarl
 iniconfig==2.1.0
     # via pytest
+multidict==6.6.4
+    # via yarl
 numpy==2.3.3
     # via pandas
 packaging==25.0
@@ -22,6 +26,8 @@ pandas==2.3.2
     # via swen-746-project (pyproject.toml)
 pluggy==1.6.0
     # via pytest
+propcache==0.3.2
+    # via yarl
 pycparser==2.23
     # via cffi
 pygithub==2.8.1
@@ -33,11 +39,17 @@ pyjwt==2.10.1
 pynacl==1.6.0
     # via pygithub
 pytest==8.4.2
+    # via
+    #   swen-746-project (pyproject.toml)
+    #   pytest-recording
+pytest-recording==0.13.4
     # via swen-746-project (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via pandas
 pytz==2025.2
     # via pandas
+pyyaml==6.0.2
+    # via vcrpy
 requests==2.32.5
     # via pygithub
 six==1.17.0
@@ -50,3 +62,10 @@ urllib3==2.5.0
     # via
     #   pygithub
     #   requests
+    #   vcrpy
+vcrpy==7.0.0
+    # via pytest-recording
+wrapt==1.17.3
+    # via vcrpy
+yarl==1.20.1
+    # via vcrpy
