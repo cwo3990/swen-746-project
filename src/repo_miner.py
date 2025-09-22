@@ -49,8 +49,8 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
             "sha": commit.sha,
             "author": commit.commit.author.name,
             "email": commit.commit.author.email,
-            "date": commit.commit.author.date, # ISO-8601
-            "message": commit.commit.message.split('\n', 1)[0] # first line only
+            "date (ISO-8601)": commit.commit.author.date, # ISO-8601
+            "message (first line)": commit.commit.message.split('\n', 1)[0] # first line only
         }
         normalized_commits.append(record)
 

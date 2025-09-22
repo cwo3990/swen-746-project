@@ -1,101 +1,101 @@
 sha,author,email,date,message
-f68e5fc18d3cd3811dbddfdeda1a57721f9e2e4e,Victorien,65306057+Viicos@users.noreply.github.com,2025-08-03 20:02:22+00:00,Remove outdated comment related to Python 2 (#4013)
-4c7404485f988f409ccaf42fefe705222ff5965a,Jan Brasna,1784648+janbrasna@users.noreply.github.com,2025-02-21 14:12:15+00:00,Update CI badge (#3933)
-7e4892ab2dd4a52efd95a9de407eee63310e0780,Matthew Strawbridge,github@philoxenic.com,2024-11-06 15:31:45+00:00,"Fix documentation of `draft_docs` and `exclude_docs`, add tests (#3859)"
-bb7e8b62185b11d9f59bb7f50b13c15134f62f8a,Tom Christie,tom@tomchristie.com,2024-08-30 12:21:48+00:00,Version 1.6.1. (#3819)
-0b22a52cc86750beee45b61b7118480012cc804d,Tom Christie,tom@tomchristie.com,2024-08-28 13:08:51+00:00,Merge pull request #3795 from mkdocs/tomchristie-patch-1
-695d8ed4a9b7d0a211aecfc81d087a0c7a739bb7,Tom Christie,tom@tomchristie.com,2024-08-28 13:07:17+00:00,Merge pull request #3808 from razorblack/master
-347e79fe184c147339af3f99832fcde6cdcecd85,Tom Christie,tom@tomchristie.com,2024-08-28 03:29:25+00:00,Merge pull request #3817 from gesslar/patch-1
-200f6f98b05656d81c3db3a410d8eac064b3f4af,gesslar,karahd@gmail.com,2024-08-28 02:07:29+00:00,Update configuration.md
-05a64b4b75470d5c4fc2328f209848b5d25108dd,Tom Christie,tom@tomchristie.com,2024-08-23 13:34:27+00:00,Use utc timezones consistently
-9204eb690f593d2fbe0f99f53df81a13eaa0dbea,Tom Christie,tom@tomchristie.com,2024-08-23 12:52:07+00:00,Merge pull request #3809 from pawamoy/warnings-control
-a16d60fad057074059b44b8f2631852646567054,Tom Christie,tom@tomchristie.com,2024-08-23 12:28:55+00:00,Merge pull request #3804 from KenSentMe/master
-e72c7d0cdc0d89d263d9d702b162936b1ac22476,Tom Christie,tom@tomchristie.com,2024-08-23 12:22:58+00:00,Merge pull request #3784 from squidfunk/fix/docker-warning
-d7376252e23078f1fc25e11d471f84a978d9e1ae,Tom Christie,tom@tomchristie.com,2024-08-23 12:21:59+00:00,Merge pull request #3774 from squidfunk/fix/dropdown
-e9d0c5c0485c200b798e901cda9ba629b17cfe2a,Timothée Mazzucotelli,dev@pawamoy.fr,2024-08-17 11:41:39+00:00,Allow controlling Python warnings with `python -W` and `PYTHONWARNINGS` again
-c722a0f005f9d56cd41127138afe42fce4ce2ab8,Avinash Maurya,64926215+razorblack@users.noreply.github.com,2024-08-17 11:39:20+00:00,Update docs/user-guide/writing-your-docs.md
-7285c75ad131c2bb1cbb6ed55f1a5df37eea550f,Avinash Maurya,64926215+razorblack@users.noreply.github.com,2024-08-17 06:30:44+00:00,Remove redundant quotes in navigation part of writing-your-docs.md
-8058b78f530c19778bfaed6f803007c77967f31e,Tom Christie,tom@tomchristie.com,2024-08-15 10:34:21+00:00,Merge pull request #3787 from squidfunk/fix/prev-next-links-2
-c8508b7a2c7725ae977569d81c052d3127fe326d,jeroenvandenieuwenhof,jeroen@vandenieuwenhof.nl,2024-08-12 09:49:56+00:00,Adding Dutch translations
-f12315d78fcef6b6d68bddfc03443b66e0516f7a,Ronny Zulaikha,75528127+ronzulu@users.noreply.github.com,2024-08-07 10:53:18+00:00,Updated description of use_directory_urls (#3798)
-7ae7068da60442534be9ee437cc0abd3f2d06e6a,Tom Christie,tom@tomchristie.com,2024-08-01 16:22:48+00:00,Resolve `SOURCE_DATE_EPOCH=0` bug.
-2dd690b6bd9b1856546a49ac1d7f43081979eddd,squidfunk,martin.donath@squidfunk.com,2024-07-30 13:10:41+00:00,Fix prev/next keyboard navigation
-52b45120956a122f45d443200cb3845be148826d,squidfunk,martin.donath@squidfunk.com,2024-07-26 15:32:36+00:00,Fix strict mode in Docker by removing 0.0.0.0 warning
-12d4345a419e06a7edeb2effec7c98c36c907029,squidfunk,martin.donath@squidfunk.com,2024-07-21 06:27:01+00:00,Fix console error when closing dropdown
-62a4e3c213d4cbdb27c08d9456aaff5b583bca07,Trần Nhật Minh Đặng,73318601+minh-dng@users.noreply.github.com,2024-07-11 11:19:18+00:00,Docs: Dead links at types of GitHub Pages sites. (#3764)
-9cc623b8f031e693e8a04c8c666608d464315624,Segev Finer,segev208@gmail.com,2024-07-02 14:20:01+00:00,Fix Developer Guide -> User Guide in User Guide README (#3762)
-2ed8798835521ae8f9da07280dd93d92944f8372,Tom Christie,tom@tomchristie.com,2024-06-20 08:43:04+00:00,Merge pull request #3730 from squidfunk/fix/menu
-0e60ebceeac1156ff1743daa973faf87539cc275,Martin Donath,martin.donath@squidfunk.com,2024-06-20 08:13:59+00:00,Update mkdocs/themes/mkdocs/js/base.js
-644abb5d653d2e9e48bbceb1f6bd26cea935acaf,Tom Christie,tom@tomchristie.com,2024-06-19 15:16:06+00:00,Merge pull request #3743 from mkdocs/pin-codespell
-0e65d662fdea9b1752932bcf747214d44271de74,Tom Christie,tom@tomchristie.com,2024-06-19 14:43:23+00:00,Pin codespell dependancie
-f0e9d7de9e2960054228ba32adcc6ebe23577112,squidfunk,martin.donath@squidfunk.com,2024-06-10 17:01:10+00:00,Fix linter errors
-484c4aadc553e5837abe52a93b34f0e1ab01c0de,squidfunk,martin.donath@squidfunk.com,2024-06-10 15:48:52+00:00,Fix repeated clicks on menu leading to errors in console
-fb1d106747930b094bc464189d4b1c349fc541c6,Tom Christie,tom@tomchristie.com,2024-05-10 08:31:09+00:00,Merge pull request #3700 from theacodes/fix-3699
-cd8011633934496f5021660bb09ce6bd8f5d612a,Thea Flowers,thea@winterbloom.com,2024-05-09 14:27:04+00:00,Fix crash when mkdocs_theme.yml is empty
-30e8142315127bcc2b05ee14ff99f300a7126a87,Tom Christie,tom@tomchristie.com,2024-05-04 07:36:51+00:00,Merge pull request #3697 from mkdocs/tomchristie-patch-1
-1d0cf613e41b6c9f80b23926b55ea98bc21e77b5,Tom Christie,tom@tomchristie.com,2024-05-03 23:27:41+00:00,Create FUNDING.yml
-e9d026a102e4ebafd698bb43f78be9d77f13d4e1,Tom Christie,tom@tomchristie.com,2024-05-03 22:51:56+00:00,Merge pull request #3684 from dpy013/zh_CN
-2d2350c5d3e878395b0cc09e1a818df3f09eb81b,Tom Christie,tom@tomchristie.com,2024-05-03 22:31:07+00:00,Merge pull request #3694 from squidfunk/fix/mkdocs-theme-navigation
-6eb6eacb185b01b852b9655910ac3a9a4179f285,Martin Donath,martin.donath@squidfunk.com,2024-05-03 11:16:36+00:00,Fix selector for dropdown
-591f23677bd028a2c3997fbdfe0013269fb51006,dpy013,26911141+dpy013@users.noreply.github.com,2024-04-27 09:28:35+00:00,Merge branch 'master' into zh_CN
-53fec50e57f6bad152ad589a83ae83d1cd72b2f5,Manuel Kaufmann,humitos@gmail.com,2024-04-25 23:03:35+00:00,"Docs: update ""Read the Docs hosting"" (#3683)"
-4cc7d7e4d7b497de54a4181ee000992a0949d7c8,dpy013,26911141+dpy013@users.noreply.github.com,2024-04-25 22:41:08+00:00,Update Chinese (Simplified)
-24ae829d595ca2e3bfe4bffb50fa0b9955032c3f,Tom Christie,tom@tomchristie.com,2024-04-25 16:40:03+00:00,Merge pull request #3682 from mkdocs/resolve-ci
-c508301a13fc1cbf97cd2d59308286604fcf6a2a,Tom Christie,tom.christie@krakentechnologies.ltd,2024-04-25 16:23:33+00:00,Resolve CI
-fcb4f6419c29fe0f17ad919b64fd49f2bff0aa9e,Tom Christie,tom@tomchristie.com,2024-04-22 16:09:57+00:00,Merge pull request #3629 from mkdocs/drop-changefreq
-0998fec7eb32d269f02c6d87071d6163c251db30,Oleh Prypin,oleh@pryp.in,2024-04-20 17:49:39+00:00,Release 1.6.0 (#3631)
-bce85bf2a6ec4e2de83974ae442e7bdb4c775f7f,Oleh Prypin,oleh@pryp.in,2024-04-20 17:48:23+00:00,Fix for showing repository icon even when a file has no edit_uri (#3657)
-0ac05daaa169f9646eb243e220103c739aad231c,Oleh Prypin,oleh@pryp.in,2024-04-20 15:55:45+00:00,Re-generate localization files (#3634)
-6244500bbc5d87d2662833b6022ec411662bb450,Martin Donath,martin.donath@squidfunk.com,2024-04-20 00:41:18+00:00,Remove jQuery from `mkdocs` theme (#3649)
-f85d429af6b6dc362ee4f121930eae5a80e1c564,Oleh Prypin,oleh@pryp.in,2024-04-18 19:02:35+00:00,Prevent a flash of white color when dark mode is enabled (#3647)
-e39cce220aa5f15ff2abf568319547451186792c,Oleh Prypin,oleh@pryp.in,2024-04-17 22:38:01+00:00,Fix style of modal close button (#3651)
-652813da4bf405e25c4859315f6015acd287bf54,Devon Stewart,blast@hardchee.se,2024-04-17 19:15:27+00:00,Prevent a crash if stdin is not defined (#3609)
-59a295f5f9cbd07dcb52c70d53d16523f24e2919,Oleh Prypin,oleh@pryp.in,2024-04-12 19:38:53+00:00,Merge pull request #3493 from waylan/2248
-6f5e7484ebdc2f5eb5a3c4cb60491306b3acbd25,Oleh Prypin,oleh@pryp.in,2024-04-10 20:00:30+00:00,Merge pull request #3625 from mkdocs/themepo
-ddb588ac7ef26ea7da458acc9706af797eaf2e9d,Tom Christie,tom@tomchristie.com,2024-04-10 17:15:11+00:00,Drop `changefreq` from `sitemap.xml`.
-1451fb3f2cbc70420982e5b1f3ea7c25ec409f01,Oleh Prypin,oleh@pryp.in,2024-04-09 14:38:35+00:00,Babel setuptools frontend is still used in the install hook
-f9aaa04a216332665600081d95d0ec6adb439eb0,Oleh Prypin,oleh@pryp.in,2024-04-09 14:20:59+00:00,"Translate the word ""theme"" added to the readthedocs theme"
-70384792e620cd6a5f5123d0b013757447c3d040,Oleh Prypin,oleh@pryp.in,2024-04-09 14:14:31+00:00,Re-generate localization files
-fc153b27fce36d01f5d2ffb086a8e7bc19803fee,Oleh Prypin,oleh@pryp.in,2023-12-10 15:17:29+00:00,Babel no longer needs an install workaround
-f8e5ff1e76f1ce83ba9327855dafa10f6147e469,Oleh Prypin,oleh@pryp.in,2024-04-09 12:30:59+00:00,"Revert ""Create FUNDING.yml (#3295)"""
-20bad191107cd0b952756c6fa534204d622dcbf4,s-rakowski,4791668+s-rakowski@users.noreply.github.com,2024-04-09 14:02:48+00:00,Add Polish translation for built-in themes (#3613)
-a793da267bd8d8c9bd52415094835d6a498c8591,Oleh Prypin,oleh@pryp.in,2024-03-16 15:05:17+00:00,Add the hook file's directory to sys.path (#3568)
-a83615554940f681b9c292b21de78e84616017c8,Waylan Limberg,waylan.limberg@icloud.com,2023-12-01 14:59:45+00:00,Add support for a 'dark mode' to mkdocs theme
-694a6028f649de6881ddc13496077856dcb3abc6,Waylan Limberg,waylan.limberg@icloud.com,2023-12-21 14:52:59+00:00,Update FontAwesome to version 6
-351b87939ddc61bc767e2b869e2a2673fe9af5ae,Waylan Limberg,waylan.limberg@icloud.com,2023-11-29 16:37:50+00:00,Update mkdocs theme to Bootstrap/Bootswatch 5.3.2
-53ff03aad2cba262f71e1e557196b368e7f99986,Oleh Prypin,oleh@pryp.in,2024-03-16 13:48:13+00:00,Consistently use ```text in Markdown
-94544bdc6b564c59d2fa79af1ce100536fbff471,Oleh Prypin,oleh@pryp.in,2023-12-30 11:51:59+00:00,Drop CSSLint as it's an abandoned project
-4ad084eb6e804f817af77cf9d2445608521c6e22,Oleh Prypin,oleh@pryp.in,2024-03-08 20:11:26+00:00,Merge pull request #3578 from mkdocs/toc2
-d62eae64fecab4ee50a595b5ed77275f73a94b55,Oleh Prypin,oleh@pryp.in,2024-02-24 12:31:40+00:00,"When getting the title, extract alt content of img tags"
-672eba5b9fdf68bf6a7cf21aa7d95e517eefe5b0,Oleh Prypin,oleh@pryp.in,2024-02-24 11:33:05+00:00,Follow Python-Markdown approach for getting the title from the first H1
-e755aaed7ea47348a60495ab364d5483ab90a4a6,Oleh Prypin,oleh@pryp.in,2024-02-08 18:17:16+00:00,Strip all HTML when getting the title from the first H1 tag (#3564)
-d6fcc56a3e2b287a2dc0310a7472ba4cdb177854,Oleh Prypin,oleh@pryp.in,2024-01-29 21:31:12+00:00,Set up automatic fixes for PRs using pre-commit-ci-lite (#3561)
-953839f1e338c73d4e984587468a6ae9e54ea1cd,Oleh Prypin,oleh@pryp.in,2024-01-29 21:12:04+00:00,Switch to an explicit markdownlint config
-369dcc0aa1ac56e5a839c5a495148f318003a7d0,Oleh Prypin,oleh@pryp.in,2024-01-29 20:56:36+00:00,Apply new markdownlint rule table-pipe-style
-2426e7c8978535e6a636413819c79f970c7ffce1,Oleh Prypin,oleh@pryp.in,2024-01-27 11:09:05+00:00,CI: Bump action versions
-c9cf11b94172b9cf851e29c535def8667891b65c,Oleh Prypin,oleh@pryp.in,2024-01-26 20:08:53+00:00,"Pin versions of black, isort, ruff"
-5dc51b7b2188fdaca846398670179dd14d782e90,Oleh Prypin,oleh@pryp.in,2024-01-26 20:01:51+00:00,Merge pull request #3451 from mkdocs/genfile
-7186f4ce9c88e7c445ef90fee85c065ca297a7c8,Andre_601,github@andre601.ch,2023-12-23 12:59:57+00:00,Remove mention of site_url being required option (#3525)
-b3f278ae73d7ef1b04630cb3851807fbc440671c,Oleh Prypin,oleh@pryp.in,2023-12-17 16:01:14+00:00,Split out the anchor-collecting processor at an earlier priority (#3520)
-15bd2d5ea0d445b0d2b23c6fe8e93d8ae1661846,Oleh Prypin,oleh@pryp.in,2023-12-17 16:00:48+00:00,Exclude tests from the wheel distribution (#3522)
-ee2a7ab45cc97dbf3554e9865deaf9f12fb1dfd7,Oleh Prypin,oleh@pryp.in,2023-10-22 09:09:55+00:00,Ensure nav is sorted regardless of the order inside Files
-bf3e76c4c8775675dab4d86fe1f3fad36cad8fb8,Oleh Prypin,oleh@pryp.in,2023-10-22 08:48:34+00:00,Rework Files internal collection as dict instead of list
-666d764a3f115af044c56c5a0adcee5c6de48501,Oleh Prypin,oleh@pryp.in,2023-12-15 16:05:08+00:00,Add `File.generated` factory method for files
-680e3f66d4ded6015f52c1260d846803bc388dab,Oleh Prypin,oleh@pryp.in,2023-12-15 15:27:01+00:00,Allow File content to be based on an in-memory string
-f22f474ecc23bd96ac155b34d5e27b6b21e3a140,Oleh Prypin,oleh@pryp.in,2023-10-28 16:04:18+00:00,Support overriding `edit_uri` on a File
-80ffca5082508162f115225e1b52b3f784560567,Oleh Prypin,oleh@pryp.in,2023-12-15 22:47:55+00:00,Refactor set_edit_url
-31fa3078605c918017051f7f9cb8d06b83085aa4,Oleh Prypin,oleh@pryp.in,2023-10-21 16:54:04+00:00,Add `generated_by` attribute to File
-0b5ef68184c549251ca432934663ad82fe842b39,Oleh Prypin,oleh@pryp.in,2023-10-21 13:40:17+00:00,Make fields of File computed on demand
-8833edcc947698949803457c9131e55330607519,Oleh Prypin,oleh@pryp.in,2023-12-15 20:56:12+00:00,Fix some broken links
-e48d6e6c53054c54ae636441e5983758373baaed,Oleh Prypin,oleh@pryp.in,2023-12-15 10:57:31+00:00,Merge pull request #3485 from mkdocs/abs
-9cd0cf4e173ee0acde26f487b23dd4ce23f3e601,Oleh Prypin,oleh@pryp.in,2023-12-14 21:14:55+00:00,Fix hatch environment 'docs' to use the local mkdocs checkout (#3518)
-224676fbae24372926f76120670afd352f821e3d,Oleh Prypin,oleh@pryp.in,2023-12-14 20:52:40+00:00,Fix broken links
-7245a636cc1a2b4018d74f1e271a4b7f61bce5e0,Oleh Prypin,oleh@pryp.in,2023-12-09 17:06:22+00:00,Also make 'relative_to_docs' work for nav validation
-a42ab62311b02a6fa2a32f43a8f549ccb96dbbf2,Oleh Prypin,oleh@pryp.in,2023-11-21 22:19:02+00:00,Validation of absolute links relative to docs root
-9e443d212058306984e20ef6daf6939ca402d6bc,Oleh Prypin,oleh@pryp.in,2023-12-11 22:49:10+00:00,"For validation, pick up anchors also from raw HTML (#3505)"
-03cc0fa4571bf73d377f9de2c7bac7d319b777e4,Oleh Prypin,oleh@pryp.in,2023-12-11 22:43:35+00:00,Merge pull request #3511 from mkdocs/contributing
-3e809b6bd675e77e545acdbbb121330bbbf9bbb4,Allison Thackston,allison@allisonthackston.com,2023-12-11 21:36:36+00:00,Add additional 'drafts' level to inclusion (#3476)
-09ff0ab247fa8d00d84ac7800dd17c82b11473b6,Oleh Prypin,oleh@pryp.in,2023-12-10 13:00:09+00:00,Update CONTRIBUTING.md
-9af473c71c5b8734d040ddb854716a736fd82433,Oleh Prypin,oleh@pryp.in,2023-12-09 14:16:38+00:00,Let's use pymdownx.snippets for the move
-f40f3bfe92c20a4b8c0e9c804fc5e4d6c4208698,Oleh Prypin,oleh@pryp.in,2023-12-09 12:37:53+00:00,Move CONTRIBUTING.md doc to the root
-91837c94e3142a69520607ed31832113e4224508,Oleh Prypin,oleh@pryp.in,2023-12-09 12:35:59+00:00,"Drop the file CONTRIBUTING.md, in preparation for a move"
+f68e5fc18d3cd3811dbddfdeda1a57721f9e2e4e,Victorien,65306057+Viicos@users.noreply.github.com,,
+4c7404485f988f409ccaf42fefe705222ff5965a,Jan Brasna,1784648+janbrasna@users.noreply.github.com,,
+7e4892ab2dd4a52efd95a9de407eee63310e0780,Matthew Strawbridge,github@philoxenic.com,,
+bb7e8b62185b11d9f59bb7f50b13c15134f62f8a,Tom Christie,tom@tomchristie.com,,
+0b22a52cc86750beee45b61b7118480012cc804d,Tom Christie,tom@tomchristie.com,,
+695d8ed4a9b7d0a211aecfc81d087a0c7a739bb7,Tom Christie,tom@tomchristie.com,,
+347e79fe184c147339af3f99832fcde6cdcecd85,Tom Christie,tom@tomchristie.com,,
+200f6f98b05656d81c3db3a410d8eac064b3f4af,gesslar,karahd@gmail.com,,
+05a64b4b75470d5c4fc2328f209848b5d25108dd,Tom Christie,tom@tomchristie.com,,
+9204eb690f593d2fbe0f99f53df81a13eaa0dbea,Tom Christie,tom@tomchristie.com,,
+a16d60fad057074059b44b8f2631852646567054,Tom Christie,tom@tomchristie.com,,
+e72c7d0cdc0d89d263d9d702b162936b1ac22476,Tom Christie,tom@tomchristie.com,,
+d7376252e23078f1fc25e11d471f84a978d9e1ae,Tom Christie,tom@tomchristie.com,,
+e9d0c5c0485c200b798e901cda9ba629b17cfe2a,Timothée Mazzucotelli,dev@pawamoy.fr,,
+c722a0f005f9d56cd41127138afe42fce4ce2ab8,Avinash Maurya,64926215+razorblack@users.noreply.github.com,,
+7285c75ad131c2bb1cbb6ed55f1a5df37eea550f,Avinash Maurya,64926215+razorblack@users.noreply.github.com,,
+8058b78f530c19778bfaed6f803007c77967f31e,Tom Christie,tom@tomchristie.com,,
+c8508b7a2c7725ae977569d81c052d3127fe326d,jeroenvandenieuwenhof,jeroen@vandenieuwenhof.nl,,
+f12315d78fcef6b6d68bddfc03443b66e0516f7a,Ronny Zulaikha,75528127+ronzulu@users.noreply.github.com,,
+7ae7068da60442534be9ee437cc0abd3f2d06e6a,Tom Christie,tom@tomchristie.com,,
+2dd690b6bd9b1856546a49ac1d7f43081979eddd,squidfunk,martin.donath@squidfunk.com,,
+52b45120956a122f45d443200cb3845be148826d,squidfunk,martin.donath@squidfunk.com,,
+12d4345a419e06a7edeb2effec7c98c36c907029,squidfunk,martin.donath@squidfunk.com,,
+62a4e3c213d4cbdb27c08d9456aaff5b583bca07,Trần Nhật Minh Đặng,73318601+minh-dng@users.noreply.github.com,,
+9cc623b8f031e693e8a04c8c666608d464315624,Segev Finer,segev208@gmail.com,,
+2ed8798835521ae8f9da07280dd93d92944f8372,Tom Christie,tom@tomchristie.com,,
+0e60ebceeac1156ff1743daa973faf87539cc275,Martin Donath,martin.donath@squidfunk.com,,
+644abb5d653d2e9e48bbceb1f6bd26cea935acaf,Tom Christie,tom@tomchristie.com,,
+0e65d662fdea9b1752932bcf747214d44271de74,Tom Christie,tom@tomchristie.com,,
+f0e9d7de9e2960054228ba32adcc6ebe23577112,squidfunk,martin.donath@squidfunk.com,,
+484c4aadc553e5837abe52a93b34f0e1ab01c0de,squidfunk,martin.donath@squidfunk.com,,
+fb1d106747930b094bc464189d4b1c349fc541c6,Tom Christie,tom@tomchristie.com,,
+cd8011633934496f5021660bb09ce6bd8f5d612a,Thea Flowers,thea@winterbloom.com,,
+30e8142315127bcc2b05ee14ff99f300a7126a87,Tom Christie,tom@tomchristie.com,,
+1d0cf613e41b6c9f80b23926b55ea98bc21e77b5,Tom Christie,tom@tomchristie.com,,
+e9d026a102e4ebafd698bb43f78be9d77f13d4e1,Tom Christie,tom@tomchristie.com,,
+2d2350c5d3e878395b0cc09e1a818df3f09eb81b,Tom Christie,tom@tomchristie.com,,
+6eb6eacb185b01b852b9655910ac3a9a4179f285,Martin Donath,martin.donath@squidfunk.com,,
+591f23677bd028a2c3997fbdfe0013269fb51006,dpy013,26911141+dpy013@users.noreply.github.com,,
+53fec50e57f6bad152ad589a83ae83d1cd72b2f5,Manuel Kaufmann,humitos@gmail.com,,
+4cc7d7e4d7b497de54a4181ee000992a0949d7c8,dpy013,26911141+dpy013@users.noreply.github.com,,
+24ae829d595ca2e3bfe4bffb50fa0b9955032c3f,Tom Christie,tom@tomchristie.com,,
+c508301a13fc1cbf97cd2d59308286604fcf6a2a,Tom Christie,tom.christie@krakentechnologies.ltd,,
+fcb4f6419c29fe0f17ad919b64fd49f2bff0aa9e,Tom Christie,tom@tomchristie.com,,
+0998fec7eb32d269f02c6d87071d6163c251db30,Oleh Prypin,oleh@pryp.in,,
+bce85bf2a6ec4e2de83974ae442e7bdb4c775f7f,Oleh Prypin,oleh@pryp.in,,
+0ac05daaa169f9646eb243e220103c739aad231c,Oleh Prypin,oleh@pryp.in,,
+6244500bbc5d87d2662833b6022ec411662bb450,Martin Donath,martin.donath@squidfunk.com,,
+f85d429af6b6dc362ee4f121930eae5a80e1c564,Oleh Prypin,oleh@pryp.in,,
+e39cce220aa5f15ff2abf568319547451186792c,Oleh Prypin,oleh@pryp.in,,
+652813da4bf405e25c4859315f6015acd287bf54,Devon Stewart,blast@hardchee.se,,
+59a295f5f9cbd07dcb52c70d53d16523f24e2919,Oleh Prypin,oleh@pryp.in,,
+6f5e7484ebdc2f5eb5a3c4cb60491306b3acbd25,Oleh Prypin,oleh@pryp.in,,
+ddb588ac7ef26ea7da458acc9706af797eaf2e9d,Tom Christie,tom@tomchristie.com,,
+1451fb3f2cbc70420982e5b1f3ea7c25ec409f01,Oleh Prypin,oleh@pryp.in,,
+f9aaa04a216332665600081d95d0ec6adb439eb0,Oleh Prypin,oleh@pryp.in,,
+70384792e620cd6a5f5123d0b013757447c3d040,Oleh Prypin,oleh@pryp.in,,
+fc153b27fce36d01f5d2ffb086a8e7bc19803fee,Oleh Prypin,oleh@pryp.in,,
+f8e5ff1e76f1ce83ba9327855dafa10f6147e469,Oleh Prypin,oleh@pryp.in,,
+20bad191107cd0b952756c6fa534204d622dcbf4,s-rakowski,4791668+s-rakowski@users.noreply.github.com,,
+a793da267bd8d8c9bd52415094835d6a498c8591,Oleh Prypin,oleh@pryp.in,,
+a83615554940f681b9c292b21de78e84616017c8,Waylan Limberg,waylan.limberg@icloud.com,,
+694a6028f649de6881ddc13496077856dcb3abc6,Waylan Limberg,waylan.limberg@icloud.com,,
+351b87939ddc61bc767e2b869e2a2673fe9af5ae,Waylan Limberg,waylan.limberg@icloud.com,,
+53ff03aad2cba262f71e1e557196b368e7f99986,Oleh Prypin,oleh@pryp.in,,
+94544bdc6b564c59d2fa79af1ce100536fbff471,Oleh Prypin,oleh@pryp.in,,
+4ad084eb6e804f817af77cf9d2445608521c6e22,Oleh Prypin,oleh@pryp.in,,
+d62eae64fecab4ee50a595b5ed77275f73a94b55,Oleh Prypin,oleh@pryp.in,,
+672eba5b9fdf68bf6a7cf21aa7d95e517eefe5b0,Oleh Prypin,oleh@pryp.in,,
+e755aaed7ea47348a60495ab364d5483ab90a4a6,Oleh Prypin,oleh@pryp.in,,
+d6fcc56a3e2b287a2dc0310a7472ba4cdb177854,Oleh Prypin,oleh@pryp.in,,
+953839f1e338c73d4e984587468a6ae9e54ea1cd,Oleh Prypin,oleh@pryp.in,,
+369dcc0aa1ac56e5a839c5a495148f318003a7d0,Oleh Prypin,oleh@pryp.in,,
+2426e7c8978535e6a636413819c79f970c7ffce1,Oleh Prypin,oleh@pryp.in,,
+c9cf11b94172b9cf851e29c535def8667891b65c,Oleh Prypin,oleh@pryp.in,,
+5dc51b7b2188fdaca846398670179dd14d782e90,Oleh Prypin,oleh@pryp.in,,
+7186f4ce9c88e7c445ef90fee85c065ca297a7c8,Andre_601,github@andre601.ch,,
+b3f278ae73d7ef1b04630cb3851807fbc440671c,Oleh Prypin,oleh@pryp.in,,
+15bd2d5ea0d445b0d2b23c6fe8e93d8ae1661846,Oleh Prypin,oleh@pryp.in,,
+ee2a7ab45cc97dbf3554e9865deaf9f12fb1dfd7,Oleh Prypin,oleh@pryp.in,,
+bf3e76c4c8775675dab4d86fe1f3fad36cad8fb8,Oleh Prypin,oleh@pryp.in,,
+666d764a3f115af044c56c5a0adcee5c6de48501,Oleh Prypin,oleh@pryp.in,,
+680e3f66d4ded6015f52c1260d846803bc388dab,Oleh Prypin,oleh@pryp.in,,
+f22f474ecc23bd96ac155b34d5e27b6b21e3a140,Oleh Prypin,oleh@pryp.in,,
+80ffca5082508162f115225e1b52b3f784560567,Oleh Prypin,oleh@pryp.in,,
+31fa3078605c918017051f7f9cb8d06b83085aa4,Oleh Prypin,oleh@pryp.in,,
+0b5ef68184c549251ca432934663ad82fe842b39,Oleh Prypin,oleh@pryp.in,,
+8833edcc947698949803457c9131e55330607519,Oleh Prypin,oleh@pryp.in,,
+e48d6e6c53054c54ae636441e5983758373baaed,Oleh Prypin,oleh@pryp.in,,
+9cd0cf4e173ee0acde26f487b23dd4ce23f3e601,Oleh Prypin,oleh@pryp.in,,
+224676fbae24372926f76120670afd352f821e3d,Oleh Prypin,oleh@pryp.in,,
+7245a636cc1a2b4018d74f1e271a4b7f61bce5e0,Oleh Prypin,oleh@pryp.in,,
+a42ab62311b02a6fa2a32f43a8f549ccb96dbbf2,Oleh Prypin,oleh@pryp.in,,
+9e443d212058306984e20ef6daf6939ca402d6bc,Oleh Prypin,oleh@pryp.in,,
+03cc0fa4571bf73d377f9de2c7bac7d319b777e4,Oleh Prypin,oleh@pryp.in,,
+3e809b6bd675e77e545acdbbb121330bbbf9bbb4,Allison Thackston,allison@allisonthackston.com,,
+09ff0ab247fa8d00d84ac7800dd17c82b11473b6,Oleh Prypin,oleh@pryp.in,,
+9af473c71c5b8734d040ddb854716a736fd82433,Oleh Prypin,oleh@pryp.in,,
+f40f3bfe92c20a4b8c0e9c804fc5e4d6c4208698,Oleh Prypin,oleh@pryp.in,,
+91837c94e3142a69520607ed31832113e4224508,Oleh Prypin,oleh@pryp.in,,
