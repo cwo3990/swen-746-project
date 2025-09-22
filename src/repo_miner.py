@@ -19,6 +19,10 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     Fetch up to `max_commits` from the specified GitHub repository.
     Returns a DataFrame with columns: sha, author, email, date, message.
     """
+    # Handle edge case of max_commits <= 0
+    if max_commits is not None and max_commits <= 0:
+        return pd.DataFrame(columns=["sha", "author", "email", "date", "message"])
+    
     # 1) Read GitHub token from environment
     github_token = os.environ.get("GITHUB_TOKEN")
     if not github_token:
@@ -34,7 +38,7 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     # 3) Fetch commit objects (paginated by PyGitHub)
     print(f"Fetching commits from `{repo_name}`...")
     commits = repo.get_commits()
-    if max_commits:
+    if max_commits is not None:
         commits = commits[:max_commits]
 
     # 4) Normalize each commit into a record dict
@@ -51,7 +55,8 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
         normalized_commits.append(record)
 
     # 5) Build DataFrame from records
-    commit_df: pd.DataFrame = pd.DataFrame(normalized_commits)
+    commit_df: pd.DataFrame = pd.DataFrame(normalized_commits, 
+                                           columns=["sha", "author", "email", "date", "message"])
     
     # Close GitHub client (not strictly necessary)
     g.close()
