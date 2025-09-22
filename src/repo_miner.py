@@ -57,6 +57,16 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     g.close()
     
     return commit_df
+
+def fetch_issues():
+    # TODO: Implement issue fetching
+    # This is currently here since the template for test_repo calls for it
+    pass
+
+def merge_and_summarize():
+    # TODO: Implement merge and summarize
+    # This is currently here since the template for test_repo calls for it
+    pass
     
 
 def main():
