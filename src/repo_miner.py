@@ -21,7 +21,7 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     """
     # Handle edge case of max_commits <= 0
     if max_commits is not None and max_commits <= 0:
-        return pd.DataFrame(columns=["sha", "author", "email", "date", "message"])
+        return pd.DataFrame(columns=["sha", "author", "email", "date (ISO-8601)", "message (first line)"])
     
     # 1) Read GitHub token from environment
     github_token = os.environ.get("GITHUB_TOKEN")
@@ -56,7 +56,7 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
 
     # 5) Build DataFrame from records
     commit_df: pd.DataFrame = pd.DataFrame(normalized_commits, 
-                                           columns=["sha", "author", "email", "date", "message"])
+                                           columns=["sha", "author", "email", "date (ISO-8601)", "message (first line)"])
     
     # Close GitHub client (not strictly necessary)
     g.close()
