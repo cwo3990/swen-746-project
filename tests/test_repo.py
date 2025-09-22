@@ -31,9 +31,9 @@ class TestsWithDummies:
         ]
         self.gh_instance._repo = DummyRepo(commits, [])
         df = fetch_commits("any/repo")
-        assert list(df.columns) == ["sha", "author", "email", "date", "message"]
+        assert list(df.columns) == ["sha", "author", "email", "date (ISO-8601)", "message (first line)"]
         assert len(df) == 2
-        assert df.iloc[0]["message"] == "Initial commit"
+        assert df.iloc[0]["message (first line)"] == "Initial commit"
 
 # --- Tests that hit real GitHub API (will be simulated with vcrpy) ---
 @pytest.mark.vcr
@@ -42,7 +42,7 @@ def test_fetch_commits_basic(monkeypatch):
     df = fetch_commits("octocat/Hello-World")
     assert list(df.columns) == ["sha", "author", "email", "date (ISO-8601)", "message (first line)"]
     assert len(df) == 3
-    assert df.iloc[0]["message"] == "Merge pull request #6 from Spaceghost/patch-1"
+    assert df.iloc[0]["message (first line)"] == "Merge pull request #6 from Spaceghost/patch-1"
 
 @pytest.mark.vcr
 def test_fetch_commits_limit(monkeypatch):
@@ -50,7 +50,7 @@ def test_fetch_commits_limit(monkeypatch):
     df = fetch_commits("octocat/Hello-World", max_commits=2)
     assert list(df.columns) == ["sha", "author", "email", "date (ISO-8601)", "message (first line)"]
     assert len(df) == 2
-    assert df.iloc[0]["message"] == "Merge pull request #6 from Spaceghost/patch-1"
+    assert df.iloc[0]["message (first line)"] == "Merge pull request #6 from Spaceghost/patch-1"
         
 @pytest.mark.vcr
 def test_fetch_commits_empty(monkeypatch):
