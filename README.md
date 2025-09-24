@@ -24,3 +24,29 @@ To install the necessary dependencies for this project, it is recommended to use
     ```bash
     pip install -r requirements.txt
     ```
+
+## Usage
+1. Set your GitHub token as an environment variable:
+    ```bash
+    export GITHUB_TOKEN=your_github_token
+    ```
+*Note: Replace `your_github_token` with your actual GitHub token. If you do not set this variable, the script will use unauthenticated requests, which are subject to stricter rate limits. For instructions on how to create a GitHub token, see the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).*
+
+2. Run the script with the repository name as an argument:
+    - With uv:
+    ```bash
+    uv run python src/repo_miner.py fetch-commits --repo owner/repo --out output.csv
+    ```
+    - Without uv:
+    ```bash
+    python src/repo_miner.py fetch-commits --repo owner/repo --out output.csv
+    ```
+*Note: There is an optional `--max` argument to limit the number of commits fetched. If not specified, all commits will be fetched. Run the command with `--help` to see all options*:
+- With uv:
+```bash
+uv run python src/repo_miner.py fetch-commits --help
+```
+- Without uv:
+```bash
+python src/repo_miner.py fetch-commits --help
+```
