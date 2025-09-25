@@ -1,0 +1,2 @@
+COMMIT_COLUMNS = ["sha", "author", "email", "date (ISO-8601)", "message (first line)"]
+ISSUE_COLUMNS = ["id", "number", "title", "user", "state", "created_at", "closed_at", "open_duration_days", "comments"]

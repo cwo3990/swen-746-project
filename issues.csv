@@ -1,0 +1,12 @@
+id,number,title,user,state,created_at,closed_at,open_duration_days,comments
+3444489190,4030,Malformed HTML comment closer `-- >` causes unbounded parsing → OOM kill during `mkdocs build`,veggerby,open,2025-09-23T09:42:32+00:00,,,1
+3438545143,4029,Should config validation/transformation happen after `on_config`?,jimporter,open,2025-09-21T19:39:15+00:00,,,0
+3430520712,4028,(Optionally) do not follow symlinks,MGChecker,closed,2025-09-18T13:59:35+00:00,2025-09-18T23:26:36+00:00,0.0,2
+3423914397,4027,Relative links not traveling up the `..`,hepcat72,closed,2025-09-16T22:20:42+00:00,2025-09-16T22:23:47+00:00,0.0,1
+3417596241,4026,MkDocs warning for anchor link in nav even when the link works,ashishguptaiitb,open,2025-09-15T11:46:01+00:00,,,0
+3380399794,4022,`Deployment terminated: Previous deployment was made with MkDocs version 3.1; you are attempting to deploy with an older version (1.6.1)`,hepcat72,open,2025-09-03T16:00:08+00:00,,,0
+3356264426,4021,Block Quote not terminating properly,TonyMarkham,closed,2025-08-26T16:01:33+00:00,2025-08-26T16:18:32+00:00,0.0,2
+3301971823,4017,`mkdocs serve` not loading external images,KennedyRichard,open,2025-08-07T21:47:13+00:00,,,0
+3298867328,4016,Disable next/previous page navigation via period/comma,hwangbro,closed,2025-08-07T04:10:29+00:00,2025-08-07T04:55:49+00:00,0.0,0
+3285861595,4014,MkDocs `use_directory_urls: true` bug with `click==8.2.2`,glenn-jocher,open,2025-08-02T11:41:08+00:00,,,2
+3257091948,4012,ERROR: Could not find a version that satisfies the requirement mkdocs-foo-plugin,hien-p,closed,2025-07-23T16:59:10+00:00,2025-09-18T14:53:20+00:00,56.0,0
