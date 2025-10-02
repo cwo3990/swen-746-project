@@ -1,0 +1,1388 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander
+  response:
+    body:
+      string: '{"id":859491541,"node_id":"R_kgDOMzrM1Q","name":"commander","full_name":"talos-rit/commander","private":false,"owner":{"login":"talos-rit","id":180594679,"node_id":"O_kgDOCsOn9w","avatar_url":"https://avatars.githubusercontent.com/u/180594679?v=4","gravatar_id":"","url":"https://api.github.com/users/talos-rit","html_url":"https://github.com/talos-rit","followers_url":"https://api.github.com/users/talos-rit/followers","following_url":"https://api.github.com/users/talos-rit/following{/other_user}","gists_url":"https://api.github.com/users/talos-rit/gists{/gist_id}","starred_url":"https://api.github.com/users/talos-rit/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/talos-rit/subscriptions","organizations_url":"https://api.github.com/users/talos-rit/orgs","repos_url":"https://api.github.com/users/talos-rit/repos","events_url":"https://api.github.com/users/talos-rit/events{/privacy}","received_events_url":"https://api.github.com/users/talos-rit/received_events","type":"Organization","user_view_type":"public","site_admin":false},"html_url":"https://github.com/talos-rit/commander","description":"Allows
+        robot arms to be repurposed as camera arms.","fork":false,"url":"https://api.github.com/repos/talos-rit/commander","forks_url":"https://api.github.com/repos/talos-rit/commander/forks","keys_url":"https://api.github.com/repos/talos-rit/commander/keys{/key_id}","collaborators_url":"https://api.github.com/repos/talos-rit/commander/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/talos-rit/commander/teams","hooks_url":"https://api.github.com/repos/talos-rit/commander/hooks","issue_events_url":"https://api.github.com/repos/talos-rit/commander/issues/events{/number}","events_url":"https://api.github.com/repos/talos-rit/commander/events","assignees_url":"https://api.github.com/repos/talos-rit/commander/assignees{/user}","branches_url":"https://api.github.com/repos/talos-rit/commander/branches{/branch}","tags_url":"https://api.github.com/repos/talos-rit/commander/tags","blobs_url":"https://api.github.com/repos/talos-rit/commander/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/talos-rit/commander/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/talos-rit/commander/git/refs{/sha}","trees_url":"https://api.github.com/repos/talos-rit/commander/git/trees{/sha}","statuses_url":"https://api.github.com/repos/talos-rit/commander/statuses/{sha}","languages_url":"https://api.github.com/repos/talos-rit/commander/languages","stargazers_url":"https://api.github.com/repos/talos-rit/commander/stargazers","contributors_url":"https://api.github.com/repos/talos-rit/commander/contributors","subscribers_url":"https://api.github.com/repos/talos-rit/commander/subscribers","subscription_url":"https://api.github.com/repos/talos-rit/commander/subscription","commits_url":"https://api.github.com/repos/talos-rit/commander/commits{/sha}","git_commits_url":"https://api.github.com/repos/talos-rit/commander/git/commits{/sha}","comments_url":"https://api.github.com/repos/talos-rit/commander/comments{/number}","issue_comment_url":"https://api.github.com/repos/talos-rit/commander/issues/comments{/number}","contents_url":"https://api.github.com/repos/talos-rit/commander/contents/{+path}","compare_url":"https://api.github.com/repos/talos-rit/commander/compare/{base}...{head}","merges_url":"https://api.github.com/repos/talos-rit/commander/merges","archive_url":"https://api.github.com/repos/talos-rit/commander/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/talos-rit/commander/downloads","issues_url":"https://api.github.com/repos/talos-rit/commander/issues{/number}","pulls_url":"https://api.github.com/repos/talos-rit/commander/pulls{/number}","milestones_url":"https://api.github.com/repos/talos-rit/commander/milestones{/number}","notifications_url":"https://api.github.com/repos/talos-rit/commander/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/talos-rit/commander/labels{/name}","releases_url":"https://api.github.com/repos/talos-rit/commander/releases{/id}","deployments_url":"https://api.github.com/repos/talos-rit/commander/deployments","created_at":"2024-09-18T18:49:26Z","updated_at":"2025-10-02T16:28:33Z","pushed_at":"2025-10-02T16:28:27Z","git_url":"git://github.com/talos-rit/commander.git","ssh_url":"git@github.com:talos-rit/commander.git","clone_url":"https://github.com/talos-rit/commander.git","svn_url":"https://github.com/talos-rit/commander","homepage":null,"size":141533,"stargazers_count":0,"watchers_count":0,"language":"Python","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":32,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":32,"watchers":0,"default_branch":"main","permissions":{"admin":false,"maintain":false,"push":true,"triage":true,"pull":true},"custom_properties":{},"organization":{"login":"talos-rit","id":180594679,"node_id":"O_kgDOCsOn9w","avatar_url":"https://avatars.githubusercontent.com/u/180594679?v=4","gravatar_id":"","url":"https://api.github.com/users/talos-rit","html_url":"https://github.com/talos-rit","followers_url":"https://api.github.com/users/talos-rit/followers","following_url":"https://api.github.com/users/talos-rit/following{/other_user}","gists_url":"https://api.github.com/users/talos-rit/gists{/gist_id}","starred_url":"https://api.github.com/users/talos-rit/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/talos-rit/subscriptions","organizations_url":"https://api.github.com/users/talos-rit/orgs","repos_url":"https://api.github.com/users/talos-rit/repos","events_url":"https://api.github.com/users/talos-rit/events{/privacy}","received_events_url":"https://api.github.com/users/talos-rit/received_events","type":"Organization","user_view_type":"public","site_admin":false},"network_count":0,"subscribers_count":0}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:17 GMT
+      ETag:
+      - W/"b5776334048b265ed30b3220789e8abb3ad5084a02f3d7dd9e0900523166c222"
+      Last-Modified:
+      - Thu, 02 Oct 2025 16:28:33 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C472:39FDD7:77085F:1A691D3:68DEB181
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4982'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '18'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - metadata=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues?state=all
+  response:
+    body:
+      string: '[{"url":"https://api.github.com/repos/talos-rit/commander/issues/112","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/112/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/112/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/112/events","html_url":"https://github.com/talos-rit/commander/pull/112","id":3478112233,"node_id":"PR_kwDOMzrM1c6rzKAx","number":112,"title":"Config
+        refactor","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-10-02T16:17:07Z","updated_at":"2025-10-02T16:17:07Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/112","html_url":"https://github.com/talos-rit/commander/pull/112","diff_url":"https://github.com/talos-rit/commander/pull/112.diff","patch_url":"https://github.com/talos-rit/commander/pull/112.patch","merged_at":null},"body":"#
+        Description\r\n-Removed configurations from config.py to make isolate source
+        of truth, and put all config files into a config directory.\r\n-Added support
+        for local config override files that can be gitignored\r\n\r\n# Metrics\r\n-
+        PR Confidence value(3): Not sure if I was able to update all the config references,
+        specifically ones modified in the fix/connection_classes branch after this
+        branch was created\r\n","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/112/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/112/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/111","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/111/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/111/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/111/events","html_url":"https://github.com/talos-rit/commander/issues/111","id":3459728615,"node_id":"I_kwDOMzrM1c7ON0Tn","number":111,"title":"Manual
+        interface redesign","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:34:44Z","updated_at":"2025-09-27T04:34:44Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently, some of the button labels are misleading and is not very
+        easy to use. \n\n# Ideal solution\nAnything but what we currently have rn
+        lol","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/111/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/111/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/110","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/110/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/110/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/110/events","html_url":"https://github.com/talos-rit/commander/issues/110","id":3459726964,"node_id":"I_kwDOMzrM1c7ONz50","number":110,"title":"Move
+        director loop logic out of manual interface and move them into director class
+        or some other module","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:33:36Z","updated_at":"2025-09-27T04:33:36Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Problem\nCurrently the manual interface defines how the director runs and
+        that is tightly coupling the director class to manual interface which is not
+        great.\n\n# Ideal solution\nThe director class should define their own run
+        time characteristics and logic. ","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/110/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/110/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/109","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/109/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/109/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/109/events","html_url":"https://github.com/talos-rit/commander/issues/109","id":3459722572,"node_id":"I_kwDOMzrM1c7ONy1M","number":109,"title":"Remove
+        threads with while loops","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:31:12Z","updated_at":"2025-09-27T04:31:12Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently there are a few threads running in parallel. While it works,
+        it''s not very optimal for cleaning when the program terminates. \n\n## Ideal
+        solution\nInstead of having multiple threads, utilize the tk''s event loop.
+        If the event loop is not able to handle all work load, we should look into
+        having out own event loop that bypasses tk''s event loop.\n","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/109/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/109/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/108","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/108/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/108/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/108/events","html_url":"https://github.com/talos-rit/commander/issues/108","id":3459710311,"node_id":"I_kwDOMzrM1c7ONv1n","number":108,"title":"Move
+        source code into a single directory","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:22:19Z","updated_at":"2025-09-27T04:22:19Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Problem\nCurrently the source code is spread out in the root directory and
+        is hard to manage. Especially since some of the root directory modules are
+        not directly executable using for example `uv run xxx.py`, and instead is
+        used as a dependency of another module.\n\n## Ideal fix\nWe would like to
+        move everything that is not executable to be in the new src directory.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/108/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/108/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/107","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/107/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/107/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/107/events","html_url":"https://github.com/talos-rit/commander/issues/107","id":3459708442,"node_id":"I_kwDOMzrM1c7ONvYa","number":107,"title":"Refactor
+        config","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:20:25Z","updated_at":"2025-09-27T04:20:25Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently, the config module is a little complicated because there
+        is a config.yml and config.py where both defines config in their own ways.\n\n##
+        The ideal fix\nThe idea fix is to have one config file that defines the configuration
+        spec and config.py to read the configuration.\nWe might also prefer to have
+        a secondary configuration file that is supposed to be per device and will
+        be gitignored.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/107/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/107/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/106","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/106/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/106/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/106/events","html_url":"https://github.com/talos-rit/commander/pull/106","id":3459695199,"node_id":"PR_kwDOMzrM1c6q09bC","number":106,"title":"Fix/connection
+        classes","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":3,"created_at":"2025-09-27T04:09:40Z","updated_at":"2025-10-02T16:28:28Z","closed_at":"2025-10-02T16:28:27Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/106","html_url":"https://github.com/talos-rit/commander/pull/106","diff_url":"https://github.com/talos-rit/commander/pull/106.diff","patch_url":"https://github.com/talos-rit/commander/pull/106.patch","merged_at":"2025-10-02T16:28:27Z"},"body":"#
+        Description\r\n\r\nFollowing modules have been refactored\r\n* config.py\r\n*
+        connections.py\r\n* base_director.py\r\n* continuous_director.py\r\n* discrete_director.py\r\n*
+        manual_interface.py\r\n* mock_operator.py\r\n* publisher.py\r\n* basic_tracker.py\r\n*
+        keep_away_director.py\r\n* keep_away_tracker.py\r\n* media_pipe_pose.py\r\n*
+        media_pipe_tracker.py\r\n* tracker.py\r\n* yolo_tracker.py\r\n* utils.py\r\n\r\nThis
+        PR''s purpose is to refactor the code without or minimal feature changes.
+        The goal is to make the application run smoother and make it feel fast to
+        run on most computers.\r\n\r\n## config.py\r\n* The config.yml is now loaded
+        in config.py module making it exportable as CAMERA_CONFIG\r\n\r\n## utils.py\r\n*
+        Termination handler: This is supposed to be a cleanup of threads, but it seems
+        like tk''s event loop will bypass the termination and has their own termination
+        handle, so this will be removed in favor of utilizing the tk''s event loop.\r\n\r\n##
+        connections.py\r\n* Removed OperatorConnection, CommandConnection and functions
+        consolidated into base connection class.\r\n* Added on_message function that
+        will be called every time the connection class receives a message from the
+        socket connection.\r\n\r\n## base_director.py\r\n* RM load_config\r\n* Isolate
+        calculate_center_bounding_box to a util function\r\n\r\n## manual_interface.py\r\n*
+        ManualInterface class now inherits TK class to make it easier to handle the
+        class after instantiated. Note that this is not really being used at the moment,
+        but it will make it less management during rearchitecting.\r\n* Director loop
+        no longer uses a while loop in favor of reducing usage of threads and utilizing
+        tk''s event loop.\r\n\r\n## basic_tracker.py\r\n* removed load_config\r\n*
+        removed duplicate logic\r\n\r\n## keep_away_director.py\r\n* removed duplicate
+        logic\r\n\r\n## tracker.py\r\n* video_buffer: this is a new param for initializing
+        tracker class that will let the cv2 take multiple buffer or single buffer
+        when processing. Default is 1, but this should be changed based on the resource
+        you have on your laptop.\r\n* New config param: desired_width, desired_height.
+        This is a new camera config attribute that can be reconfigured to resize the
+        frame size on the GUI based on the camera that is attached. If the desired_height
+        is not defined, the tracker class will automatically determine the height
+        based on the shape of the image taken from the camera.\r\n* temporary implementation
+        of thread that handles the updating of the gui with video frames. This is
+        temporary because we should utilize the eventloop of tk.\r\n\r\nThe following
+        modules received minor refactoring\r\n* continuous_director.py\r\n* discrete_director.py\r\n*
+        mock_operator.py\r\n* publisher.py\r\n* keep_away_director.py\r\n* media_pipe_pose.py\r\n*
+        media_pipe_tracker.py\r\n* yolo_tracker.py\r\n\r\n\r\n# Metrics\r\n- PR Confidence
+        value(1 ~ 5): 4\r\n","closed_by":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/106/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/106/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/105","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/105/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/105/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/105/events","html_url":"https://github.com/talos-rit/commander/pull/105","id":3458983587,"node_id":"PR_kwDOMzrM1c6qynji","number":105,"title":"Added
+        simple issue template","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-26T20:12:48Z","updated_at":"2025-09-29T17:21:59Z","closed_at":"2025-09-29T17:21:56Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/105","html_url":"https://github.com/talos-rit/commander/pull/105","diff_url":"https://github.com/talos-rit/commander/pull/105.diff","patch_url":"https://github.com/talos-rit/commander/pull/105.patch","merged_at":"2025-09-29T17:21:56Z"},"body":"#
+        Description\r\nSee [project_documentation Issue #18](https://github.com/talos-rit/project_documentation/issues/18)\r\n\r\n#
+        Metrics\r\n- PR Confidence value(1 ~ 5): 5\r\n","closed_by":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/105/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/105/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/104","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/104/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/104/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/104/events","html_url":"https://github.com/talos-rit/commander/pull/104","id":3458662070,"node_id":"PR_kwDOMzrM1c6qxhcL","number":104,"title":"Update
+        executable action to remove ubuntu","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-26T18:17:30Z","updated_at":"2025-09-26T20:39:32Z","closed_at":"2025-09-26T20:39:26Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/104","html_url":"https://github.com/talos-rit/commander/pull/104","diff_url":"https://github.com/talos-rit/commander/pull/104.diff","patch_url":"https://github.com/talos-rit/commander/pull/104.patch","merged_at":"2025-09-26T20:39:26Z"},"body":"#
+        Description\r\nSee #97 for details.\r\nFixes #97 \r\n# Metrics\r\n- PR Confidence
+        value(1 ~ 5): 5\r\n","closed_by":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/104/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/104/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/103","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/103/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/103/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/103/events","html_url":"https://github.com/talos-rit/commander/issues/103","id":3455345713,"node_id":"I_kwDOMzrM1c7N9GQx","number":103,"title":"Add
+        a way for commander to handle positional data sent from operator.","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T23:44:37Z","updated_at":"2025-09-25T23:45:47Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"-
+        Operator needs to let commander know what position the arm is in for commander
+        to be able to control it well.\n- Commander needs a way of reading and reacting
+        to positional information from operator.\n- supercedes issue #49","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/103/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/103/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/102","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/102/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/102/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/102/events","html_url":"https://github.com/talos-rit/commander/issues/102","id":3455285586,"node_id":"I_kwDOMzrM1c7N83lS","number":102,"title":"Support
+        for multiple simultaneous operator connections","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T23:01:39Z","updated_at":"2025-09-25T23:01:39Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/99","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Allow
+        commander to interface with and send commands to multiple operators at once.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/102/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/102/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/101","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/101/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/101/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/101/events","html_url":"https://github.com/talos-rit/commander/issues/101","id":3455283504,"node_id":"I_kwDOMzrM1c7N83Ew","number":101,"title":"Application
+        class to manage threads","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T23:00:11Z","updated_at":"2025-09-25T23:00:11Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/99","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Decouple
+        tracker and connection threads from manual interface","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/101/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/101/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/100","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/100/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/100/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/100/events","html_url":"https://github.com/talos-rit/commander/issues/100","id":3455280721,"node_id":"I_kwDOMzrM1c7N82ZR","number":100,"title":"Transfer
+        video display logic out of tracker","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T22:58:21Z","updated_at":"2025-09-25T22:58:21Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/99","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Video
+        display should be handled by manual interface or a subclass of it.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/100/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/100/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/99","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/99/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/99/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/99/events","html_url":"https://github.com/talos-rit/commander/issues/99","id":3455278736,"node_id":"I_kwDOMzrM1c7N816Q","number":99,"title":"[EPIC]
+        Re-architect commander","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T22:57:02Z","updated_at":"2025-09-26T00:03:33Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":3,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":null,"closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/99/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/99/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/98","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/98/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/98/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/98/events","html_url":"https://github.com/talos-rit/commander/issues/98","id":3455232710,"node_id":"I_kwDOMzrM1c7N8qrG","number":98,"title":"[FIX]
+        Refactoring Commander Source Code","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T22:26:09Z","updated_at":"2025-09-27T04:27:41Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":5,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\n\n- [ ] 1. Refactor config(Merge config.yaml, config.py?)\n- [ ]
+        2. Move code into src directory\n- [ ] 3. Refactor Connection Class\n- [ ]
+        4. Refactor Manual Interface\n- [ ] 5. Refactor Tracker\n- [ ] 6. Refactor
+        Director\n- [ ] 7. Remove the use of threads and use the TK''s eventloop\n-
+        [ ] 8. Move the director logic out of manual interface\n- [ ] 9. Redesign
+        manual interface buttons to be more comprehensible\n\n\n> [!NOTE]\n> This
+        is not re-architecting the source code that will be done after this issue.
+        The point of this issue is to make sure the code runs without any performance
+        issues or stutter visually. ","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/98/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/98/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/97","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/97/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/97/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/97/events","html_url":"https://github.com/talos-rit/commander/issues/97","id":3455219066,"node_id":"I_kwDOMzrM1c7N8nV6","number":97,"title":"Remove
+        Pyinstaller task for ubuntu","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-25T22:17:49Z","updated_at":"2025-09-26T20:39:27Z","closed_at":"2025-09-26T20:39:27Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Description\n- Remove job for creating an executable Ubuntu since we only
+        have a limited number of minutes and the job takes forever to create an almost
+        4GB executable.\n- Update `README` to include instructions on how to create
+        an executable locally using pyinstaller","closed_by":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/97/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/97/timeline","performed_via_github_app":null,"state_reason":"completed"},{"url":"https://api.github.com/repos/talos-rit/commander/issues/96","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/96/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/96/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/96/events","html_url":"https://github.com/talos-rit/commander/issues/96","id":3455191509,"node_id":"I_kwDOMzrM1c7N8gnV","number":96,"title":"Go
+        through current branches and issues to determine if needed or need to be deleted","user":{"login":"rtyocum","id":38407240,"node_id":"MDQ6VXNlcjM4NDA3MjQw","avatar_url":"https://avatars.githubusercontent.com/u/38407240?v=4","gravatar_id":"","url":"https://api.github.com/users/rtyocum","html_url":"https://github.com/rtyocum","followers_url":"https://api.github.com/users/rtyocum/followers","following_url":"https://api.github.com/users/rtyocum/following{/other_user}","gists_url":"https://api.github.com/users/rtyocum/gists{/gist_id}","starred_url":"https://api.github.com/users/rtyocum/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rtyocum/subscriptions","organizations_url":"https://api.github.com/users/rtyocum/orgs","repos_url":"https://api.github.com/users/rtyocum/repos","events_url":"https://api.github.com/users/rtyocum/events{/privacy}","received_events_url":"https://api.github.com/users/rtyocum/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[{"id":7483887036,"node_id":"LA_kwDOMzrM1c8AAAABvhMNvA","url":"https://api.github.com/repos/talos-rit/commander/labels/repo%20cleanup","name":"repo
+        cleanup","color":"0052cc","default":false,"description":"Update repo structure,
+        rules, etc."}],"state":"open","locked":false,"assignee":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-25T22:01:11Z","updated_at":"2025-09-25T23:47:39Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Determine
+        if old issues have value or should be deleted.\n\nIssues of note:\n#103 \n#41
+        \n#50 \n#62 \n\nVideography features\n#56 \n#74 \n\nQOL features:\n#69 \n#80
+        \n\nSeems useless:\n#65 ","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/96/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/96/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/95","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/95/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/95/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/95/events","html_url":"https://github.com/talos-rit/commander/pull/95","id":3447879157,"node_id":"PR_kwDOMzrM1c6qNUmw","number":95,"title":"Fix/lint
+        errors","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-24T06:31:39Z","updated_at":"2025-09-24T22:10:44Z","closed_at":"2025-09-24T22:10:41Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/95","html_url":"https://github.com/talos-rit/commander/pull/95","diff_url":"https://github.com/talos-rit/commander/pull/95.diff","patch_url":"https://github.com/talos-rit/commander/pull/95.patch","merged_at":"2025-09-24T22:10:41Z"},"body":"#
+        Description\r\n* Major refactoring\r\n* Remove commented out print line statements(potentially
+        some non debug code)\r\n* Move algorithm asset to a dedicated directory\r\n*
+        Refactor nested if statements to use guard statements and respect line character
+        limits\r\n* Convert enum classes to use IntEnum and StrEnum for type hints
+        and reduce extra friction for type conversions\r\n\r\n> [!NOTE]\r\n> This
+        branch is branched off of #94 \r\n\r\n# Metrics\r\n- PR Confidence value(1
+        ~ 5): 4\r\n","closed_by":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/95/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/95/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/94","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/94/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/94/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/94/events","html_url":"https://github.com/talos-rit/commander/pull/94","id":3447081560,"node_id":"PR_kwDOMzrM1c6qKlx5","number":94,"title":"feat:first
+        attempt at pyinstaller action and cleanup of imports","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[{"id":7483807814,"node_id":"LA_kwDOMzrM1c8AAAABvhHYRg","url":"https://api.github.com/repos/talos-rit/commander/labels/enhancement","name":"enhancement","color":"a2eeef","default":true,"description":"New
+        feature or request"}],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-24T00:35:28Z","updated_at":"2025-09-24T21:56:34Z","closed_at":"2025-09-24T21:56:31Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/94","html_url":"https://github.com/talos-rit/commander/pull/94","diff_url":"https://github.com/talos-rit/commander/pull/94.diff","patch_url":"https://github.com/talos-rit/commander/pull/94.patch","merged_at":"2025-09-24T21:56:31Z"},"body":"#
+        Description\r\nCloses #92 \r\n# Metrics\r\n- PR Confidence value: 3\r\n","closed_by":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/94/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/94/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/93","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/93/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/93/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/93/events","html_url":"https://github.com/talos-rit/commander/pull/93","id":3447059653,"node_id":"PR_kwDOMzrM1c6qKhHI","number":93,"title":"feat:
+        reorganize yolo pt file to be installed in yolo-pt directory instead of root","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-24T00:25:55Z","updated_at":"2025-09-29T17:21:07Z","closed_at":"2025-09-29T17:21:07Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/93","html_url":"https://github.com/talos-rit/commander/pull/93","diff_url":"https://github.com/talos-rit/commander/pull/93.diff","patch_url":"https://github.com/talos-rit/commander/pull/93.patch","merged_at":"2025-09-29T17:21:07Z"},"body":"#
+        Description\r\n* Fix yolo-pt installation location to yolo-pt\r\n\r\n# Metrics\r\n-
+        PR Confidence value: 4\r\n","closed_by":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/93/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/93/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/92","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/92/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/92/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/92/events","html_url":"https://github.com/talos-rit/commander/issues/92","id":3447040429,"node_id":"I_kwDOMzrM1c7Ndamt","number":92,"title":"Pyinstaller
+        Action for Easy Distribution","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-24T00:17:55Z","updated_at":"2025-09-24T21:56:31Z","closed_at":"2025-09-24T21:56:31Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature \nCreate a GitHub Action for creating executables for different operating
+        systems using `pyinstaller`. This should make the distribution of the commander
+        easier.","closed_by":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/92/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/92/timeline","performed_via_github_app":null,"state_reason":"completed"},{"url":"https://api.github.com/repos/talos-rit/commander/issues/91","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/91/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/91/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/91/events","html_url":"https://github.com/talos-rit/commander/issues/91","id":3447036837,"node_id":"I_kwDOMzrM1c7NdZul","number":91,"title":"fix:
+        config variable for yolo pt files","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-24T00:16:07Z","updated_at":"2025-09-24T00:16:07Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently in the `yolo/yolo_tracker.py`, we have global variable
+        YOLO_MODEL_DIR which could benefit from redirecting to else where via config
+        file. So move to an appropriate config file.\n\n\n","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/91/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/91/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/90","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/90/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/90/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/90/events","html_url":"https://github.com/talos-rit/commander/pull/90","id":3447008011,"node_id":"PR_kwDOMzrM1c6qKWJ-","number":90,"title":"feat:
+        add hint to pr confidence value for github pr template","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-24T00:02:48Z","updated_at":"2025-09-24T00:37:32Z","closed_at":"2025-09-24T00:37:24Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/90","html_url":"https://github.com/talos-rit/commander/pull/90","diff_url":"https://github.com/talos-rit/commander/pull/90.diff","patch_url":"https://github.com/talos-rit/commander/pull/90.patch","merged_at":"2025-09-24T00:37:24Z"},"body":"#
+        Description\r\nAdd hint to PR confidence value to help us remember what the
+        options are.\r\n\r\n# Metrics\r\n- PR Confidence value(1 ~ 5): 5","closed_by":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/90/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/90/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/89","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/89/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/89/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/89/events","html_url":"https://github.com/talos-rit/commander/pull/89","id":3446912780,"node_id":"PR_kwDOMzrM1c6qKCsD","number":89,"title":"deprecated
+        digital twin and pybullet for windows support","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-23T23:09:17Z","updated_at":"2025-09-24T00:26:19Z","closed_at":"2025-09-24T00:26:16Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/89","html_url":"https://github.com/talos-rit/commander/pull/89","diff_url":"https://github.com/talos-rit/commander/pull/89.diff","patch_url":"https://github.com/talos-rit/commander/pull/89.patch","merged_at":"2025-09-24T00:26:16Z"},"body":"#
+        Description\r\n\r\n# Metrics\r\n- PR Confidence value:  4\r\n","closed_by":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/89/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/89/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/88","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/88/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/88/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/88/events","html_url":"https://github.com/talos-rit/commander/pull/88","id":3412119108,"node_id":"PR_kwDOMzrM1c6oVbLP","number":88,"title":"x86
+        Intel Based Mac Development Support","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-12T22:52:37Z","updated_at":"2025-09-23T16:23:58Z","closed_at":"2025-09-23T16:23:58Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/88","html_url":"https://github.com/talos-rit/commander/pull/88","diff_url":"https://github.com/talos-rit/commander/pull/88.diff","patch_url":"https://github.com/talos-rit/commander/pull/88.patch","merged_at":"2025-09-23T16:23:58Z"},"body":"#
+        Description\r\nx86 Intel-based Mac support was dropped in most recent versions
+        of pytorch and jax. Updated `pyproject.toml` to use the latest compatible
+        version based on OS and CPU.\r\n\r\n# Metrics\r\n- PR Confidence value: 10\r\n","closed_by":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/88/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/88/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/87","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/87/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/87/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/87/events","html_url":"https://github.com/talos-rit/commander/pull/87","id":3408500001,"node_id":"PR_kwDOMzrM1c6oJB_L","number":87,"title":"fix:
+        mv pr template.md to .github","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-12T01:20:34Z","updated_at":"2025-09-23T14:20:47Z","closed_at":"2025-09-23T14:20:47Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/87","html_url":"https://github.com/talos-rit/commander/pull/87","diff_url":"https://github.com/talos-rit/commander/pull/87.diff","patch_url":"https://github.com/talos-rit/commander/pull/87.patch","merged_at":"2025-09-23T14:20:47Z"},"body":"#
+        Description\r\n* cleanup directory by moving pr template.md to .github\r\n\r\n#
+        Metrics\r\n- PR Confidence value: probably good enough\r\n","closed_by":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/87/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/87/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/86","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/86/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/86/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/86/events","html_url":"https://github.com/talos-rit/commander/pull/86","id":3408491353,"node_id":"PR_kwDOMzrM1c6oJAH9","number":86,"title":"feat:
+        introduce uv","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[{"id":7483807799,"node_id":"LA_kwDOMzrM1c8AAAABvhHYNw","url":"https://api.github.com/repos/talos-rit/commander/labels/documentation","name":"documentation","color":"0075ca","default":true,"description":"Improvements
+        or additions to documentation"},{"id":7483807814,"node_id":"LA_kwDOMzrM1c8AAAABvhHYRg","url":"https://api.github.com/repos/talos-rit/commander/labels/enhancement","name":"enhancement","color":"a2eeef","default":true,"description":"New
+        feature or request"},{"id":7483887036,"node_id":"LA_kwDOMzrM1c8AAAABvhMNvA","url":"https://api.github.com/repos/talos-rit/commander/labels/repo%20cleanup","name":"repo
+        cleanup","color":"0052cc","default":false,"description":"Update repo structure,
+        rules, etc."}],"state":"closed","locked":false,"assignee":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-12T01:14:25Z","updated_at":"2025-09-12T19:02:39Z","closed_at":"2025-09-12T19:02:39Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/86","html_url":"https://github.com/talos-rit/commander/pull/86","diff_url":"https://github.com/talos-rit/commander/pull/86.diff","patch_url":"https://github.com/talos-rit/commander/pull/86.patch","merged_at":"2025-09-12T19:02:39Z"},"body":"#
+        Description\r\n* Make managing python environment easier with uv.\r\n* Update
+        readme file with instruction for uv\r\n* Add vscode extensions recommendations:
+        ruff extension for uniform syntax\r\n\r\n# Metrics\r\n- PR Confidence value:
+        very high\r\n","closed_by":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/86/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/86/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/85","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/85/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/85/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/85/events","html_url":"https://github.com/talos-rit/commander/pull/85","id":3018488226,"node_id":"PR_kwDOMzrM1c6T1RF4","number":85,"title":"Keep
+        away","user":{"login":"nolanporter77","id":54957501,"node_id":"MDQ6VXNlcjU0OTU3NTAx","avatar_url":"https://avatars.githubusercontent.com/u/54957501?v=4","gravatar_id":"","url":"https://api.github.com/users/nolanporter77","html_url":"https://github.com/nolanporter77","followers_url":"https://api.github.com/users/nolanporter77/followers","following_url":"https://api.github.com/users/nolanporter77/following{/other_user}","gists_url":"https://api.github.com/users/nolanporter77/gists{/gist_id}","starred_url":"https://api.github.com/users/nolanporter77/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nolanporter77/subscriptions","organizations_url":"https://api.github.com/users/nolanporter77/orgs","repos_url":"https://api.github.com/users/nolanporter77/repos","events_url":"https://api.github.com/users/nolanporter77/events{/privacy}","received_events_url":"https://api.github.com/users/nolanporter77/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-04-24T21:22:42Z","updated_at":"2025-04-24T21:23:27Z","closed_at":"2025-04-24T21:23:27Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/85","html_url":"https://github.com/talos-rit/commander/pull/85","diff_url":"https://github.com/talos-rit/commander/pull/85.diff","patch_url":"https://github.com/talos-rit/commander/pull/85.patch","merged_at":"2025-04-24T21:23:27Z"},"body":"#
+        Description\r\nMerging for buttons on manual interface\r\n\r\n# Metrics\r\n-
+        PR Confidence value: 2/5\r\n","closed_by":{"login":"devkav","id":30608363,"node_id":"MDQ6VXNlcjMwNjA4MzYz","avatar_url":"https://avatars.githubusercontent.com/u/30608363?v=4","gravatar_id":"","url":"https://api.github.com/users/devkav","html_url":"https://github.com/devkav","followers_url":"https://api.github.com/users/devkav/followers","following_url":"https://api.github.com/users/devkav/following{/other_user}","gists_url":"https://api.github.com/users/devkav/gists{/gist_id}","starred_url":"https://api.github.com/users/devkav/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/devkav/subscriptions","organizations_url":"https://api.github.com/users/devkav/orgs","repos_url":"https://api.github.com/users/devkav/repos","events_url":"https://api.github.com/users/devkav/events{/privacy}","received_events_url":"https://api.github.com/users/devkav/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/85/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/85/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/84","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/84/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/84/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/84/events","html_url":"https://github.com/talos-rit/commander/pull/84","id":3003215237,"node_id":"PR_kwDOMzrM1c6TB1sM","number":84,"title":"Tracking
+        - Media Pipe Pose and Yolo Tracking","user":{"login":"nolanporter77","id":54957501,"node_id":"MDQ6VXNlcjU0OTU3NTAx","avatar_url":"https://avatars.githubusercontent.com/u/54957501?v=4","gravatar_id":"","url":"https://api.github.com/users/nolanporter77","html_url":"https://github.com/nolanporter77","followers_url":"https://api.github.com/users/nolanporter77/followers","following_url":"https://api.github.com/users/nolanporter77/following{/other_user}","gists_url":"https://api.github.com/users/nolanporter77/gists{/gist_id}","starred_url":"https://api.github.com/users/nolanporter77/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nolanporter77/subscriptions","organizations_url":"https://api.github.com/users/nolanporter77/orgs","repos_url":"https://api.github.com/users/nolanporter77/repos","events_url":"https://api.github.com/users/nolanporter77/events{/privacy}","received_events_url":"https://api.github.com/users/nolanporter77/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"devkav","id":30608363,"node_id":"MDQ6VXNlcjMwNjA4MzYz","avatar_url":"https://avatars.githubusercontent.com/u/30608363?v=4","gravatar_id":"","url":"https://api.github.com/users/devkav","html_url":"https://github.com/devkav","followers_url":"https://api.github.com/users/devkav/followers","following_url":"https://api.github.com/users/devkav/following{/other_user}","gists_url":"https://api.github.com/users/devkav/gists{/gist_id}","starred_url":"https://api.github.com/users/devkav/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/devkav/subscriptions","organizations_url":"https://api.github.com/users/devkav/orgs","repos_url":"https://api.github.com/users/devkav/repos","events_url":"https://api.github.com/users/devkav/events{/privacy}","received_events_url":"https://api.github.com/users/devkav/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"devkav","id":30608363,"node_id":"MDQ6VXNlcjMwNjA4MzYz","avatar_url":"https://avatars.githubusercontent.com/u/30608363?v=4","gravatar_id":"","url":"https://api.github.com/users/devkav","html_url":"https://github.com/devkav","followers_url":"https://api.github.com/users/devkav/followers","following_url":"https://api.github.com/users/devkav/following{/other_user}","gists_url":"https://api.github.com/users/devkav/gists{/gist_id}","starred_url":"https://api.github.com/users/devkav/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/devkav/subscriptions","organizations_url":"https://api.github.com/users/devkav/orgs","repos_url":"https://api.github.com/users/devkav/repos","events_url":"https://api.github.com/users/devkav/events{/privacy}","received_events_url":"https://api.github.com/users/devkav/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"nlc4447","id":54862227,"node_id":"MDQ6VXNlcjU0ODYyMjI3","avatar_url":"https://avatars.githubusercontent.com/u/54862227?v=4","gravatar_id":"","url":"https://api.github.com/users/nlc4447","html_url":"https://github.com/nlc4447","followers_url":"https://api.github.com/users/nlc4447/followers","following_url":"https://api.github.com/users/nlc4447/following{/other_user}","gists_url":"https://api.github.com/users/nlc4447/gists{/gist_id}","starred_url":"https://api.github.com/users/nlc4447/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nlc4447/subscriptions","organizations_url":"https://api.github.com/users/nlc4447/orgs","repos_url":"https://api.github.com/users/nlc4447/repos","events_url":"https://api.github.com/users/nlc4447/events{/privacy}","received_events_url":"https://api.github.com/users/nlc4447/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"johnaflory","id":70000968,"node_id":"MDQ6VXNlcjcwMDAwOTY4","avatar_url":"https://avatars.githubusercontent.com/u/70000968?v=4","gravatar_id":"","url":"https://api.github.com/users/johnaflory","html_url":"https://github.com/johnaflory","followers_url":"https://api.github.com/users/johnaflory/followers","following_url":"https://api.github.com/users/johnaflory/following{/other_user}","gists_url":"https://api.github.com/users/johnaflory/gists{/gist_id}","starred_url":"https://api.github.com/users/johnaflory/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnaflory/subscriptions","organizations_url":"https://api.github.com/users/johnaflory/orgs","repos_url":"https://api.github.com/users/johnaflory/repos","events_url":"https://api.github.com/users/johnaflory/events{/privacy}","received_events_url":"https://api.github.com/users/johnaflory/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"adv3429","id":90266192,"node_id":"MDQ6VXNlcjkwMjY2MTky","avatar_url":"https://avatars.githubusercontent.com/u/90266192?v=4","gravatar_id":"","url":"https://api.github.com/users/adv3429","html_url":"https://github.com/adv3429","followers_url":"https://api.github.com/users/adv3429/followers","following_url":"https://api.github.com/users/adv3429/following{/other_user}","gists_url":"https://api.github.com/users/adv3429/gists{/gist_id}","starred_url":"https://api.github.com/users/adv3429/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adv3429/subscriptions","organizations_url":"https://api.github.com/users/adv3429/orgs","repos_url":"https://api.github.com/users/adv3429/repos","events_url":"https://api.github.com/users/adv3429/events{/privacy}","received_events_url":"https://api.github.com/users/adv3429/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-04-17T18:48:06Z","updated_at":"2025-04-24T21:06:18Z","closed_at":"2025-04-24T21:06:13Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/84","html_url":"https://github.com/talos-rit/commander/pull/84","diff_url":"https://github.com/talos-rit/commander/pull/84.diff","patch_url":"https://github.com/talos-rit/commander/pull/84.patch","merged_at":"2025-04-24T21:06:12Z"},"body":"#
+        Description\r\nAdding in single speaker tracking and also up and down.\r\nTested
+        by me and John in the lab for a couple hours.\r\n\r\n# Metrics\r\n- PR Confidence
+        value: 3/5\r\n","closed_by":{"login":"nolanporter77","id":54957501,"node_id":"MDQ6VXNlcjU0OTU3NTAx","avatar_url":"https://avatars.githubusercontent.com/u/54957501?v=4","gravatar_id":"","url":"https://api.github.com/users/nolanporter77","html_url":"https://github.com/nolanporter77","followers_url":"https://api.github.com/users/nolanporter77/followers","following_url":"https://api.github.com/users/nolanporter77/following{/other_user}","gists_url":"https://api.github.com/users/nolanporter77/gists{/gist_id}","starred_url":"https://api.github.com/users/nolanporter77/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nolanporter77/subscriptions","organizations_url":"https://api.github.com/users/nolanporter77/orgs","repos_url":"https://api.github.com/users/nolanporter77/repos","events_url":"https://api.github.com/users/nolanporter77/events{/privacy}","received_events_url":"https://api.github.com/users/nolanporter77/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/84/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/84/timeline","performed_via_github_app":null,"state_reason":null},{"url":"https://api.github.com/repos/talos-rit/commander/issues/83","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/83/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/83/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/83/events","html_url":"https://github.com/talos-rit/commander/pull/83","id":2980785674,"node_id":"PR_kwDOMzrM1c6R10lp","number":83,"title":"Issue
+        #79: Add cartesian movement, hardware operation, and get speed commands","user":{"login":"devkav","id":30608363,"node_id":"MDQ6VXNlcjMwNjA4MzYz","avatar_url":"https://avatars.githubusercontent.com/u/30608363?v=4","gravatar_id":"","url":"https://api.github.com/users/devkav","html_url":"https://github.com/devkav","followers_url":"https://api.github.com/users/devkav/followers","following_url":"https://api.github.com/users/devkav/following{/other_user}","gists_url":"https://api.github.com/users/devkav/gists{/gist_id}","starred_url":"https://api.github.com/users/devkav/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/devkav/subscriptions","organizations_url":"https://api.github.com/users/devkav/orgs","repos_url":"https://api.github.com/users/devkav/repos","events_url":"https://api.github.com/users/devkav/events{/privacy}","received_events_url":"https://api.github.com/users/devkav/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-04-08T19:42:41Z","updated_at":"2025-04-16T20:30:49Z","closed_at":"2025-04-16T20:30:44Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/talos-rit/commander/pulls/83","html_url":"https://github.com/talos-rit/commander/pull/83","diff_url":"https://github.com/talos-rit/commander/pull/83.diff","patch_url":"https://github.com/talos-rit/commander/pull/83.patch","merged_at":"2025-04-16T20:30:44Z"},"body":"#
+        Description\r\n\r\nAdded the following commands as specified by the ICD\r\n\r\n-
+        Cartesian Move (Discrete)\r\n- Cartesian Move (Continuous START)\r\n- Cartesian
+        Move (Continuous STOP)\r\n- Execute Hardware Operation (ask Alex or Brooke
+        about this if its confusing)\r\n- Get Speed\r\n\r\n# Metrics\r\n- PR Confidence
+        value: 4/5\r\n\r\ncloses #79 \r\n","closed_by":{"login":"adv3429","id":90266192,"node_id":"MDQ6VXNlcjkwMjY2MTky","avatar_url":"https://avatars.githubusercontent.com/u/90266192?v=4","gravatar_id":"","url":"https://api.github.com/users/adv3429","html_url":"https://github.com/adv3429","followers_url":"https://api.github.com/users/adv3429/followers","following_url":"https://api.github.com/users/adv3429/following{/other_user}","gists_url":"https://api.github.com/users/adv3429/gists{/gist_id}","starred_url":"https://api.github.com/users/adv3429/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adv3429/subscriptions","organizations_url":"https://api.github.com/users/adv3429/orgs","repos_url":"https://api.github.com/users/adv3429/repos","events_url":"https://api.github.com/users/adv3429/events{/privacy}","received_events_url":"https://api.github.com/users/adv3429/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/83/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/83/timeline","performed_via_github_app":null,"state_reason":null}]'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:17 GMT
+      ETag:
+      - W/"512d7e604a2b966fac0b13e32f6d0874f99ca83fe3831c2144ea17f6016d254d"
+      Link:
+      - <https://api.github.com/repositories/859491541/issues?state=all&after=Y3Vyc29yOnYyOpLPAAABlhbtH2jOsasuCg%3D%3D&per_page=30&page=2>;
+        rel="next"
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C476:2CE0BE:77ECA6:1AB2D51:68DEB181
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4981'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '19'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/111
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/111","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/111/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/111/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/111/events","html_url":"https://github.com/talos-rit/commander/issues/111","id":3459728615,"node_id":"I_kwDOMzrM1c7ON0Tn","number":111,"title":"Manual
+        interface redesign","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:34:44Z","updated_at":"2025-09-27T04:34:44Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently, some of the button labels are misleading and is not very
+        easy to use. \n\n# Ideal solution\nAnything but what we currently have rn
+        lol","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/111/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/111/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:18 GMT
+      ETag:
+      - W/"4b1a7ccce23e43c0c63fea4ddd16d83f532a236dddaef56c86e54d69ea602b97"
+      Last-Modified:
+      - Sat, 27 Sep 2025 04:34:44 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C477:26D31F:7766C5:1A8EBAC:68DEB182
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4980'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '20'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/110
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/110","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/110/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/110/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/110/events","html_url":"https://github.com/talos-rit/commander/issues/110","id":3459726964,"node_id":"I_kwDOMzrM1c7ONz50","number":110,"title":"Move
+        director loop logic out of manual interface and move them into director class
+        or some other module","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:33:36Z","updated_at":"2025-09-27T04:33:36Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Problem\nCurrently the manual interface defines how the director runs and
+        that is tightly coupling the director class to manual interface which is not
+        great.\n\n# Ideal solution\nThe director class should define their own run
+        time characteristics and logic. ","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/110/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/110/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:19 GMT
+      ETag:
+      - W/"74d360185c574c828d85dcca0fe2ce1f2f5f598b0e07f5adeca0892b219fb347"
+      Last-Modified:
+      - Sat, 27 Sep 2025 04:33:36 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C478:38A614:729AD8:19712BE:68DEB182
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4979'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '21'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/109
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/109","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/109/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/109/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/109/events","html_url":"https://github.com/talos-rit/commander/issues/109","id":3459722572,"node_id":"I_kwDOMzrM1c7ONy1M","number":109,"title":"Remove
+        threads with while loops","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:31:12Z","updated_at":"2025-09-27T04:31:12Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently there are a few threads running in parallel. While it works,
+        it''s not very optimal for cleaning when the program terminates. \n\n## Ideal
+        solution\nInstead of having multiple threads, utilize the tk''s event loop.
+        If the event loop is not able to handle all work load, we should look into
+        having out own event loop that bypasses tk''s event loop.\n","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/109/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/109/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:19 GMT
+      ETag:
+      - W/"7b661c47314e6721c455c3893b90fcbf1f6d13b461639e949a4b7bf35f914e2c"
+      Last-Modified:
+      - Sat, 27 Sep 2025 04:31:12 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C479:38DC13:798E50:1AEB119:68DEB183
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4978'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '22'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/108
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/108","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/108/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/108/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/108/events","html_url":"https://github.com/talos-rit/commander/issues/108","id":3459710311,"node_id":"I_kwDOMzrM1c7ONv1n","number":108,"title":"Move
+        source code into a single directory","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:22:19Z","updated_at":"2025-09-27T04:22:19Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Problem\nCurrently the source code is spread out in the root directory and
+        is hard to manage. Especially since some of the root directory modules are
+        not directly executable using for example `uv run xxx.py`, and instead is
+        used as a dependency of another module.\n\n## Ideal fix\nWe would like to
+        move everything that is not executable to be in the new src directory.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/108/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/108/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:19 GMT
+      ETag:
+      - W/"885202ff60a8481cac3991fc8b5864d70627226902f2a82eaed3a27739a7bfae"
+      Last-Modified:
+      - Sat, 27 Sep 2025 04:22:19 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C47A:3D3CC6:762BA2:1A3977A:68DEB183
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4977'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '23'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/107
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/107","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/107/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/107/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/107/events","html_url":"https://github.com/talos-rit/commander/issues/107","id":3459708442,"node_id":"I_kwDOMzrM1c7ONvYa","number":107,"title":"Refactor
+        config","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-27T04:20:25Z","updated_at":"2025-09-27T04:20:25Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/98","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\nCurrently, the config module is a little complicated because there
+        is a config.yml and config.py where both defines config in their own ways.\n\n##
+        The ideal fix\nThe idea fix is to have one config file that defines the configuration
+        spec and config.py to read the configuration.\nWe might also prefer to have
+        a secondary configuration file that is supposed to be per device and will
+        be gitignored.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/107/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/107/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:20 GMT
+      ETag:
+      - W/"59aa11915436103aa6da069ccaf4c0e5895883f9630859ebe84b961daf4223b1"
+      Last-Modified:
+      - Sat, 27 Sep 2025 04:20:25 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C47C:298351:75BF6E:1A16CE3:68DEB184
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4976'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '24'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/103
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/103","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/103/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/103/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/103/events","html_url":"https://github.com/talos-rit/commander/issues/103","id":3455345713,"node_id":"I_kwDOMzrM1c7N9GQx","number":103,"title":"Add
+        a way for commander to handle positional data sent from operator.","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T23:44:37Z","updated_at":"2025-09-25T23:45:47Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"-
+        Operator needs to let commander know what position the arm is in for commander
+        to be able to control it well.\n- Commander needs a way of reading and reacting
+        to positional information from operator.\n- supercedes issue #49","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/103/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/103/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:20 GMT
+      ETag:
+      - W/"dc59ee4bc5aae0211f368db9c93bc7169b3b75b90aa1df258ae2642c20e5a8cc"
+      Last-Modified:
+      - Thu, 25 Sep 2025 23:45:47 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C47D:38F219:76ECE0:1A50F81:68DEB184
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4975'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '25'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/102
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/102","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/102/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/102/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/102/events","html_url":"https://github.com/talos-rit/commander/issues/102","id":3455285586,"node_id":"I_kwDOMzrM1c7N83lS","number":102,"title":"Support
+        for multiple simultaneous operator connections","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T23:01:39Z","updated_at":"2025-09-25T23:01:39Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/99","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Allow
+        commander to interface with and send commands to multiple operators at once.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/102/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/102/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:21 GMT
+      ETag:
+      - W/"3390962eec391b55c2c64d3c087a55a69e3eb37e8cad3636bda1f320f8342ae3"
+      Last-Modified:
+      - Thu, 25 Sep 2025 23:01:39 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C47F:1336CB:786BB0:1AC62DC:68DEB185
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4974'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '26'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/101
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/101","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/101/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/101/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/101/events","html_url":"https://github.com/talos-rit/commander/issues/101","id":3455283504,"node_id":"I_kwDOMzrM1c7N83Ew","number":101,"title":"Application
+        class to manage threads","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T23:00:11Z","updated_at":"2025-09-25T23:00:11Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/99","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Decouple
+        tracker and connection threads from manual interface","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/101/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/101/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:21 GMT
+      ETag:
+      - W/"c8b0e61afd99dd940b551778a76c17cbf36e6548e9fe85dae3da3d4a891fe7b6"
+      Last-Modified:
+      - Thu, 25 Sep 2025 23:00:11 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C480:38DC13:799A28:1AEDB0A:68DEB185
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4973'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '27'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/100
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/100","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/100/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/100/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/100/events","html_url":"https://github.com/talos-rit/commander/issues/100","id":3455280721,"node_id":"I_kwDOMzrM1c7N82ZR","number":100,"title":"Transfer
+        video display logic out of tracker","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T22:58:21Z","updated_at":"2025-09-25T22:58:21Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"parent_issue_url":"https://api.github.com/repos/talos-rit/commander/issues/99","issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Video
+        display should be handled by manual interface or a subclass of it.","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/100/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/100/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:22 GMT
+      ETag:
+      - W/"e7fbb00a5daca5c86ed0ca41f73c18b22343893012c2e9cd4863c9062a4c3d0b"
+      Last-Modified:
+      - Thu, 25 Sep 2025 22:58:21 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C481:39FDD7:7721D4:1A6ED19:68DEB186
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4972'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '28'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/99
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/99","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/99/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/99/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/99/events","html_url":"https://github.com/talos-rit/commander/issues/99","id":3455278736,"node_id":"I_kwDOMzrM1c7N816Q","number":99,"title":"[EPIC]
+        Re-architect commander","user":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T22:57:02Z","updated_at":"2025-09-26T00:03:33Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":3,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":null,"closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/99/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/99/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:22 GMT
+      ETag:
+      - W/"485ef5830b3f987352577ade75f4f34cc430a924d5335cd4297d3575072ec36b"
+      Last-Modified:
+      - Fri, 26 Sep 2025 00:03:33 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C483:38DC13:799F4E:1AEED42:68DEB186
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4971'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '29'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/98
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/98","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/98/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/98/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/98/events","html_url":"https://github.com/talos-rit/commander/issues/98","id":3455232710,"node_id":"I_kwDOMzrM1c7N8qrG","number":98,"title":"[FIX]
+        Refactoring Commander Source Code","user":{"login":"hiromon0125","id":61609289,"node_id":"MDQ6VXNlcjYxNjA5Mjg5","avatar_url":"https://avatars.githubusercontent.com/u/61609289?v=4","gravatar_id":"","url":"https://api.github.com/users/hiromon0125","html_url":"https://github.com/hiromon0125","followers_url":"https://api.github.com/users/hiromon0125/followers","following_url":"https://api.github.com/users/hiromon0125/following{/other_user}","gists_url":"https://api.github.com/users/hiromon0125/gists{/gist_id}","starred_url":"https://api.github.com/users/hiromon0125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hiromon0125/subscriptions","organizations_url":"https://api.github.com/users/hiromon0125/orgs","repos_url":"https://api.github.com/users/hiromon0125/repos","events_url":"https://api.github.com/users/hiromon0125/events{/privacy}","received_events_url":"https://api.github.com/users/hiromon0125/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2025-09-25T22:26:09Z","updated_at":"2025-09-27T04:27:41Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":5,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Feature\n\n- [ ] 1. Refactor config(Merge config.yaml, config.py?)\n- [ ]
+        2. Move code into src directory\n- [ ] 3. Refactor Connection Class\n- [ ]
+        4. Refactor Manual Interface\n- [ ] 5. Refactor Tracker\n- [ ] 6. Refactor
+        Director\n- [ ] 7. Remove the use of threads and use the TK''s eventloop\n-
+        [ ] 8. Move the director logic out of manual interface\n- [ ] 9. Redesign
+        manual interface buttons to be more comprehensible\n\n\n> [!NOTE]\n> This
+        is not re-architecting the source code that will be done after this issue.
+        The point of this issue is to make sure the code runs without any performance
+        issues or stutter visually. ","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/98/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/98/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:23 GMT
+      ETag:
+      - W/"19ae1fa65b7454a0ceae1377ede1d91932155adaad480cb6659dc6c28c6a109f"
+      Last-Modified:
+      - Sat, 27 Sep 2025 04:27:41 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C484:26D31F:777C00:1A936AD:68DEB187
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4970'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '30'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/97
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/97","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/97/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/97/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/97/events","html_url":"https://github.com/talos-rit/commander/issues/97","id":3455219066,"node_id":"I_kwDOMzrM1c7N8nV6","number":97,"title":"Remove
+        Pyinstaller task for ubuntu","user":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-25T22:17:49Z","updated_at":"2025-09-26T20:39:27Z","closed_at":"2025-09-26T20:39:27Z","author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"#
+        Description\n- Remove job for creating an executable Ubuntu since we only
+        have a limited number of minutes and the job takes forever to create an almost
+        4GB executable.\n- Update `README` to include instructions on how to create
+        an executable locally using pyinstaller","closed_by":{"login":"cwo3990","id":90639009,"node_id":"MDQ6VXNlcjkwNjM5MDA5","avatar_url":"https://avatars.githubusercontent.com/u/90639009?v=4","gravatar_id":"","url":"https://api.github.com/users/cwo3990","html_url":"https://github.com/cwo3990","followers_url":"https://api.github.com/users/cwo3990/followers","following_url":"https://api.github.com/users/cwo3990/following{/other_user}","gists_url":"https://api.github.com/users/cwo3990/gists{/gist_id}","starred_url":"https://api.github.com/users/cwo3990/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cwo3990/subscriptions","organizations_url":"https://api.github.com/users/cwo3990/orgs","repos_url":"https://api.github.com/users/cwo3990/repos","events_url":"https://api.github.com/users/cwo3990/events{/privacy}","received_events_url":"https://api.github.com/users/cwo3990/received_events","type":"User","user_view_type":"public","site_admin":false},"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/97/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/97/timeline","performed_via_github_app":null,"state_reason":"completed"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:23 GMT
+      ETag:
+      - W/"a893d9c9b33cf0f03f0f2ad3524f57b1887d834bcfa1c94f210e5be7e43aff87"
+      Last-Modified:
+      - Fri, 26 Sep 2025 20:39:27 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C485:387DF2:71DB72:1926332:68DEB187
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4969'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '31'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/talos-rit/commander/issues/96
+  response:
+    body:
+      string: '{"url":"https://api.github.com/repos/talos-rit/commander/issues/96","repository_url":"https://api.github.com/repos/talos-rit/commander","labels_url":"https://api.github.com/repos/talos-rit/commander/issues/96/labels{/name}","comments_url":"https://api.github.com/repos/talos-rit/commander/issues/96/comments","events_url":"https://api.github.com/repos/talos-rit/commander/issues/96/events","html_url":"https://github.com/talos-rit/commander/issues/96","id":3455191509,"node_id":"I_kwDOMzrM1c7N8gnV","number":96,"title":"Go
+        through current branches and issues to determine if needed or need to be deleted","user":{"login":"rtyocum","id":38407240,"node_id":"MDQ6VXNlcjM4NDA3MjQw","avatar_url":"https://avatars.githubusercontent.com/u/38407240?v=4","gravatar_id":"","url":"https://api.github.com/users/rtyocum","html_url":"https://github.com/rtyocum","followers_url":"https://api.github.com/users/rtyocum/followers","following_url":"https://api.github.com/users/rtyocum/following{/other_user}","gists_url":"https://api.github.com/users/rtyocum/gists{/gist_id}","starred_url":"https://api.github.com/users/rtyocum/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rtyocum/subscriptions","organizations_url":"https://api.github.com/users/rtyocum/orgs","repos_url":"https://api.github.com/users/rtyocum/repos","events_url":"https://api.github.com/users/rtyocum/events{/privacy}","received_events_url":"https://api.github.com/users/rtyocum/received_events","type":"User","user_view_type":"public","site_admin":false},"labels":[{"id":7483887036,"node_id":"LA_kwDOMzrM1c8AAAABvhMNvA","url":"https://api.github.com/repos/talos-rit/commander/labels/repo%20cleanup","name":"repo
+        cleanup","color":"0052cc","default":false,"description":"Update repo structure,
+        rules, etc."}],"state":"open","locked":false,"assignee":{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false},"assignees":[{"login":"frey808","id":57374784,"node_id":"MDQ6VXNlcjU3Mzc0Nzg0","avatar_url":"https://avatars.githubusercontent.com/u/57374784?v=4","gravatar_id":"","url":"https://api.github.com/users/frey808","html_url":"https://github.com/frey808","followers_url":"https://api.github.com/users/frey808/followers","following_url":"https://api.github.com/users/frey808/following{/other_user}","gists_url":"https://api.github.com/users/frey808/gists{/gist_id}","starred_url":"https://api.github.com/users/frey808/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frey808/subscriptions","organizations_url":"https://api.github.com/users/frey808/orgs","repos_url":"https://api.github.com/users/frey808/repos","events_url":"https://api.github.com/users/frey808/events{/privacy}","received_events_url":"https://api.github.com/users/frey808/received_events","type":"User","user_view_type":"public","site_admin":false}],"milestone":null,"comments":0,"created_at":"2025-09-25T22:01:11Z","updated_at":"2025-09-25T23:47:39Z","closed_at":null,"author_association":"MEMBER","type":null,"active_lock_reason":null,"sub_issues_summary":{"total":0,"completed":0,"percent_completed":0},"issue_dependencies_summary":{"blocked_by":0,"total_blocked_by":0,"blocking":0,"total_blocking":0},"body":"Determine
+        if old issues have value or should be deleted.\n\nIssues of note:\n#103 \n#41
+        \n#50 \n#62 \n\nVideography features\n#56 \n#74 \n\nQOL features:\n#69 \n#80
+        \n\nSeems useless:\n#65 ","closed_by":null,"reactions":{"url":"https://api.github.com/repos/talos-rit/commander/issues/96/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/talos-rit/commander/issues/96/timeline","performed_via_github_app":null,"state_reason":null}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Oct 2025 17:08:24 GMT
+      ETag:
+      - W/"8e5b26985c83c794e8bce385f677419aabec9e483a91936024427b24b1c6014b"
+      Last-Modified:
+      - Sat, 27 Sep 2025 19:59:15 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - github.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C486:278C9D:71FD76:194308D:68DEB188
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4968'
+      X-RateLimit-Reset:
+      - '1759425775'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '32'
+      X-XSS-Protection:
+      - '0'
+      github-authentication-token-expiration:
+      - 2025-11-01 13:05:11 -0400
+      x-accepted-github-permissions:
+      - issues=read
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+version: 1

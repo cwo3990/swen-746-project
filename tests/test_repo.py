@@ -84,21 +84,32 @@ class TestsWithVCR:
         assert len(df) == 0
         assert df.empty
     
-    @pytest.mark.vcr
+    @pytest.mark.vcr()
     def test_fetch_issues_PR_filtering(self, monkeypatch):
         """ Test that fetch issues filters out PRs."""
-        # TODO: Implement this test
-        pass
+        PR_issue_nums = [112, 106, 105, 104]
+        df = fetch_issues("talos-rit/commander", state="all", max_issues=17)
+        assert list(df.columns) == ISSUE_COLUMNS
+        # Check that none of the PR issue numbers from the recorded cassette are in the DataFrame
+        for issue_num in PR_issue_nums:
+            assert issue_num not in df["number"].values
     
-    @pytest.mark.vcr
+    @pytest.mark.vcr()
     def test_fetch_issues_correct_date_parsing(self, monkeypatch):
-        """ Test that fetch issues correctly parses dates. Dates should be in ISO-8601 format. """
-        # TODO: Implement this test
-        pass
+        """ Test that fetch issues correctly parses dates. Dates should be in ISO-8601 format if existing else None. """
+        df = fetch_issues("talos-rit/commander", state="all", max_issues=17)
+        # check that issue that hasn't been closed is None
+        assert df.iloc[0]["closed_at"] is None
+        # Pick an issue that has both created at and closed at dates and check its dates are in ISO-8601 format
+        assert list(df.columns) == ISSUE_COLUMNS
+        assert is_iso8601_format(df.iloc[11]["created_at"])
+        assert is_iso8601_format(df.iloc[11]["closed_at"])
     
-    @pytest.mark.vcr
+    @pytest.mark.vcr()
     def test_fetch_issues_open_duration(self, monkeypatch):
         """ Test that fetch issues correctly computes open_duration_days. """
-        # TODO: Implement this test
-        pass
-    
+        expected_open_duration = 41 # days
+        df = fetch_issues("talos-rit/commander", state="closed", max_issues=20)
+        assert list(df.columns) == ISSUE_COLUMNS
+        # Test an issue that has been closed after being open for more than 0 or 1 days
+        assert df.iloc[2]["open_duration_days"] == expected_open_duration
