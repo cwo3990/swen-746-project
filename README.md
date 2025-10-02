@@ -32,7 +32,8 @@ To install the necessary dependencies for this project, it is recommended to use
     ```
 *Note: Replace `your_github_token` with your actual GitHub token. If you do not set this variable, the script will use unauthenticated requests, which are subject to stricter rate limits. For instructions on how to create a GitHub token, see the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).*
 
-2. Run the script with the repository name as an argument:
+2. Run the script with the desired command and the target repository name as an argument. Use `--help` to see all options:
+    #### Fetch Commits
     - With uv:
     ```bash
     uv run python src/repo_miner.py fetch-commits --repo owner/repo --out output.csv
@@ -41,12 +42,23 @@ To install the necessary dependencies for this project, it is recommended to use
     ```bash
     python src/repo_miner.py fetch-commits --repo owner/repo --out output.csv
     ```
-*Note: There is an optional `--max` argument to limit the number of commits fetched. If not specified, all commits will be fetched. Run the command with `--help` to see all options*:
+    *Note: There is an optional `--max` argument to limit the number of commits fetched. If not specified, all commits will be fetched.*
+
+    #### Fetch Issues
+    - With uv:
+    ```bash
+    uv run python src/repo_miner.py fetch-issues --repo owner/repo --out output.csv
+    ```
+    - Without uv:
+    ```bash
+    python src/repo_miner.py fetch-issues --repo owner/repo --out output.csv
+    ```
+*Note: Run the `repo_miner.py` script with `--help` to see all options. If you want more info about a specific command, then use the `--help` option after the command*:
 - With uv:
 ```bash
-uv run python src/repo_miner.py fetch-commits --help
+uv run python src/repo_miner.py --help
 ```
 - Without uv:
 ```bash
-python src/repo_miner.py fetch-commits --help
+python src/repo_miner.py --help
 ```
