@@ -1,4 +1,4 @@
-sha,author,email,date (ISO-8601),message (first line)
+sha,author,email,date,message
 f68e5fc18d3cd3811dbddfdeda1a57721f9e2e4e,Victorien,65306057+Viicos@users.noreply.github.com,2025-08-03 20:02:22+00:00,Remove outdated comment related to Python 2 (#4013)
 4c7404485f988f409ccaf42fefe705222ff5965a,Jan Brasna,1784648+janbrasna@users.noreply.github.com,2025-02-21 14:12:15+00:00,Update CI badge (#3933)
 7e4892ab2dd4a52efd95a9de407eee63310e0780,Matthew Strawbridge,github@philoxenic.com,2024-11-06 15:31:45+00:00,"Fix documentation of `draft_docs` and `exclude_docs`, add tests (#3859)"
