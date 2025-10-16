@@ -44,6 +44,9 @@ To install the necessary dependencies for this project, it is recommended to use
     ```
     *Note: There is an optional `--max` argument to limit the number of commits fetched. If not specified, all commits will be fetched.*
 
+    ##### Output
+    See `data/commits.csv` for an example output file.
+
     #### Fetch Issues
     - With uv:
     ```bash
@@ -52,6 +55,29 @@ To install the necessary dependencies for this project, it is recommended to use
     - Without uv:
     ```bash
     python src/repo_miner.py fetch-issues --repo owner/repo --out output.csv
+    ```
+    ##### Output
+    See `data/issues.csv` for an example output file.
+
+    #### Merge and Summarize
+    - With uv:
+    ```bash
+        uv run python src/repo_miner.py summarize --commits commits.csv --issues issues.csv
+    ```
+    - Without uv:
+    ```bash
+        python src/repo_miner.py summarize --commits commits.csv --issues issues.csv
+    ```
+    ##### Example Output
+    ```
+    Top 5 committers:
+        Committer 1: 47 commits
+        Committer 2: 23 commits
+        Committer 3: 5 commits
+        Committer 4: 3 commits
+        Committer 5: 2 commits
+    Issue close rate: 0.50
+    Avg. issue open duration: 1.00 days
     ```
 *Note: Run the `repo_miner.py` script with `--help` to see all options. If you want more info about a specific command, then use the `--help` option after the command*:
 - With uv:
