@@ -75,6 +75,7 @@ class TestsWithDummies:
             "state": ["closed","open","closed"],
             "created_at": ["2025-01-01T00:00:00","2025-01-01T02:00:00","2025-01-02T00:00:00"],
             "closed_at": ["2025-01-01T12:00:00",None,"2025-01-02T12:00:00"],
+            "open_duration_days": [0, None, 0],
             "comments": [0,1,2]
         })
         # Run summarize
@@ -86,7 +87,7 @@ class TestsWithDummies:
         # Check close rate
         assert "Issue close rate: 0.67" in captured
         # Check avg open duration
-        assert "Avg. issue open duration:" in captured
+        assert "Avg. issue open duration: 0.00 days" in captured
 
 # --- Tests that hit real GitHub API (will be simulated with vcrpy) ---
 class TestsWithVCR:

@@ -3,9 +3,13 @@ repo_miner.py
 
 A command-line tool to:
   1) Fetch and normalize commit data from GitHub
+  2) Fetch and normalize issue data from GitHub
+  3) Merge data and print summary metrics
 
 Sub-commands:
   - fetch-commits
+  - fetch-issues
+  - summarize
 """
 
 import os
@@ -128,15 +132,23 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
 
     # 1) Normalize date/time columns to pandas datetime
     commits['date']      = pd.to_datetime(commits['date'], errors='coerce')
-    # TODO issues['created_at'] = ...
-    # issues['closed_at']  = ...
+    issues['created_at'] = pd.to_datetime(issues['created_at'], errors='coerce')
+    issues['closed_at']  = pd.to_datetime(issues['closed_at'], errors='coerce')
 
     # 2) Top 5 committers
+    top_committers = commits['author'].value_counts().head(5)
+    print("Top 5 committers:")
+    for author, count in top_committers.items():
+        print(f"\t{author}: {count} commits")
 
     # 3) Calculate issue close rate
+    closed_issues = issues[issues['state'] == 'closed']
+    issue_close_rate = len(closed_issues) / len(issues) if not issues.empty else 0
+    print(f"Issue close rate: {issue_close_rate:.2f}")
 
     # 4) Compute average open duration (days) for closed issues
-    
+    avg_open_duration = closed_issues['open_duration_days'].mean() if not closed_issues.empty else 0
+    print(f"Avg. issue open duration: {avg_open_duration:.2f} days")
 
 def main():
     """
