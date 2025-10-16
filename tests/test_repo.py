@@ -41,7 +41,7 @@ class TestsWithDummies:
         df = fetch_commits("any/repo")
         assert list(df.columns) == COMMIT_COLUMNS
         assert len(df) == 2
-        assert df.iloc[0]["message (first line)"] == "Initial commit"
+        assert df.iloc[0]["message"] == "Initial commit"
         
     def test_fetch_issues_basic(self, monkeypatch):
         now = datetime.now()
@@ -56,6 +56,38 @@ class TestsWithDummies:
         # Check date normalization
         assert is_iso8601_format(df.iloc[0]["created_at"])
         assert is_iso8601_format(df.iloc[1]["closed_at"])
+    
+    def test_merge_and_summarize_output(self, capsys):
+        # Prepare test DataFrames
+        df_commits = pd.DataFrame({
+            "sha": ["a", "b", "c", "d"],
+            "author": ["X", "Y", "X", "Z"],
+            "email": ["x@e", "y@e", "x@e", "z@e"],
+            "date": ["2025-01-01T00:00:00", "2025-01-01T01:00:00",
+                    "2025-01-02T00:00:00", "2025-01-02T01:00:00"],
+            "message": ["m1", "m2", "m3", "m4"]
+        })
+        df_issues = pd.DataFrame({
+            "id": [1,2,3],
+            "number": [101,102,103],
+            "title": ["I1","I2","I3"],
+            "user": ["u1","u2","u3"],
+            "state": ["closed","open","closed"],
+            "created_at": ["2025-01-01T00:00:00","2025-01-01T02:00:00","2025-01-02T00:00:00"],
+            "closed_at": ["2025-01-01T12:00:00",None,"2025-01-02T12:00:00"],
+            "open_duration_days": [0, None, 0],
+            "comments": [0,1,2]
+        })
+        # Run summarize
+        merge_and_summarize(df_commits, df_issues)
+        captured = capsys.readouterr().out
+        # Check top committer
+        assert "Top 5 committers" in captured
+        assert "X: 2 commits" in captured
+        # Check close rate
+        assert "Issue close rate: 0.67" in captured
+        # Check avg open duration
+        assert "Avg. issue open duration: 0.00 days" in captured
 
 # --- Tests that hit real GitHub API (will be simulated with vcrpy) ---
 class TestsWithVCR:
@@ -65,7 +97,7 @@ class TestsWithVCR:
         df = fetch_commits("octocat/Hello-World")
         assert list(df.columns) == COMMIT_COLUMNS
         assert len(df) == 3
-        assert df.iloc[0]["message (first line)"] == "Merge pull request #6 from Spaceghost/patch-1"
+        assert df.iloc[0]["message"] == "Merge pull request #6 from Spaceghost/patch-1"
 
     @pytest.mark.vcr
     def test_fetch_commits_limit(self, monkeypatch):
@@ -73,7 +105,7 @@ class TestsWithVCR:
         df = fetch_commits("octocat/Hello-World", max_commits=2)
         assert list(df.columns) == COMMIT_COLUMNS
         assert len(df) == 2
-        assert df.iloc[0]["message (first line)"] == "Merge pull request #6 from Spaceghost/patch-1"
+        assert df.iloc[0]["message"] == "Merge pull request #6 from Spaceghost/patch-1"
             
     @pytest.mark.vcr
     def test_fetch_commits_empty(self, monkeypatch):
